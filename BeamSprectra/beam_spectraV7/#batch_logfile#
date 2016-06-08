@@ -1,0 +1,18 @@
+
+Date    	job     	input			i_photon	ndiv_max	cpu (barb min)	queue
+
+25jun2005	guin00001	photons_b590-591	1		200		122.5		xlong
+26jun2005	guin00002	photons_b590-591	2		200		139.5		xlong
+26jun2005	guin00003	ebeam_in_b590-591	-		200		 32.6		xlong
+26jun2005	guin00004	pbeam_in_b590-591	-		200		 31.5		xlong
+26jun2005	guin00005	lumi_b590-591		-		200		 80.9    	xlong
+26jun2005	guin00006	lumi_b590-592		-		200		497.6		xlong   
+26jun2005	guin00007	photons_b590-592	1		200		294.7		xlong
+26jun2005	guin00008	ebeam_in_b590-592	-		200		105.0		xlong
+
+26jun2005	guin00009	photons_b590-599	1		200		      		xxl
+26jun2005	guin00010	photons_b590-599	2		200		      		xxl
+26jun2005	guin00011	ebeam_in_b590-599	-		200		      		xlong
+26jun2005	guin00012	pbeam_in_b590-599	-		200		        	xlong
+26jun2005	guin00013	lumi_b590-599		-		200		     		xxl
+

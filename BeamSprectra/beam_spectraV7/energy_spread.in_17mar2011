@@ -1,0 +1,11 @@
+ &energy_spread_input
+!
+  seed = 500111 
+  i_sqrts = 1000
+  i_photon = 1   ! Applicable if background photon file is specified.  Use 1 (2) to produce .grd,.hbk files for photons from electron (positron) beam
+  single_file_name = 
+   '/nfs/slac/g/lcd/ilc_data/whizdata/ILC1000/guinea-pig/ilc_1000_TF_hartin_aug_2010/beam2_at_ip_pre_collision/ilc1000n_beam2_0000.dat'
+!
+!
+/
+

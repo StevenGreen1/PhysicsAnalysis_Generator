@@ -1,0 +1,14 @@
+  just opened iu,energy_spread_in_name= 11 energy_spread.in
+  about to do namelist read  u= 11
+ seed=    59987729
+ i_sqrts=         500
+ n_single_file=           1
+ single_file_name=
+ ../ilc_0500_may05_run05_seed06_lumi/lumi_b59x_all.dat                                               
+  
+  ifile,grid_file= 1 ../ilc_0500_may05_run05_seed06_lumi/lumi_b59x_all.grd                                               
+  ifile,hbook_file= 1 ../ilc_0500_may05_run05_seed06_lumi/lumi_b59x_all.hbk                                               
+  
+  ifile= 1  about to open ../ilc_0500_may05_run05_seed06_lumi/lumi_b59x_all.dat                                               
+ ifile,nrec,ndiv= 1 1356250 100
+  ifile= 1  about to again open ../ilc_0500_may05_run05_seed06_lumi/lumi_b59x_all.dat                                               

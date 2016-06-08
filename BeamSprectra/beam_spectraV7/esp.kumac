@@ -1,0 +1,135 @@
+MACRO KUMAC
+if [1] = -2 then
+FORTRAN/CLOSE 0
+*HISTOGRAM/FILE '22' '../ilc_0500_may05_run05_seed06_lumi/lumi_b590.hbk' '1024'
+*HISTOGRAM/FILE '22' '../ilc_0500_may05_run05_seed06_lumi/lumi_b59x_0123.hbk' '1024'
+HISTOGRAM/FILE '22' '../ilc_0500_may05_run05_seed06_lumi/lumi_b59x_all.hbk' '1024'
+ opt nbox
+GRAPHICS/OPTION LINY
+
+
+
+
+endif
+
+
+
+
+
+if [1] = 1 then
+
+SET *
+SET *FON -41
+opt nbox
+opt utit
+title '  '
+GRAPHICS/VIEWING/ZONE '2' '2' 
+GRAPHICS/OPTION NSTA
+
+vec/create y1211(100) r 100*0.
+vec/create y1311(100) r 100*0.
+
+hi/get_vect/contents 1211 y1211
+hi/get_vect/contents 1311 y1311
+
+
+1d 9211 ' ' 100 245.76 256.
+1d 9311 ' ' 100 245.76 256.
+
+hi/put_vect/contents 9211 y1211
+hi/put_vect/contents 9311 y1311
+
+*HISTOGRAM/OPERATIONS/ADD 9211 9211 99211 54285.2 0.
+*HISTOGRAM/OPERATIONS/ADD 9311 9311 99311 54285.2 0.
+*HISTOGRAM/OPERATIONS/ADD 9211 9211 99211 13318.0 0.
+*HISTOGRAM/OPERATIONS/ADD 9311 9311 99311 13318.0 0.
+HISTOGRAM/OPERATIONS/ADD 9211 9211 99211 135625.0 0.
+HISTOGRAM/OPERATIONS/ADD 9311 9311 99311 135625.0 0.
+
+
+
+
+hi/plot //lun22/211
+hi/plot //lun22/311
+hi/plot 99211
+hi/plot 99311
+
+endif
+
+
+if [1] = 2 then
+
+SET *
+SET *FON -41
+opt nbox
+opt utit
+title '  '
+GRAPHICS/VIEWING/ZONE '2' '1' 
+GRAPHICS/OPTION STA
+
+hi/plot //lun22/611(252.:254.5,252.:254.5) lego
+hi/plot //lun22/1611(252.:254.5,252.:254.5) lego
+
+endif
+
+
+if [1] = 3 then
+
+SET *
+SET *FON -41
+opt nbox
+opt utit
+title '  '
+GRAPHICS/VIEWING/ZONE '2' '2' 
+GRAPHICS/OPTION STA
+
+hi/plot //lun22/211(251.:255.)
+hi/plot //lun22/311(251.:255.)
+hi/plot 9211(251.:255.) 
+hi/plot 9311(251.:255.) 
+
+endif
+
+if [1] = 3 then
+
+SET *
+SET *FON -41
+opt nbox
+opt utit
+title '  '
+GRAPHICS/VIEWING/ZONE '1' '2' 
+GRAPHICS/OPTION STA
+
+
+hi/fit //lun22/8148(-0.8:0.8) G
+hi/fit //lun22/8148(-0.5:0.5) G
+
+endif
+
+
+
+if [1] = 30 then
+
+zone 1 2
+
+
+set hcol 1002
+set htyp 1
+hi/plot //lun22/211 
+set hcol 1001
+set htyp 1
+hi/plot 99211 'S'
+
+set hcol 1002
+set htyp 1
+hi/plot //lun22/311 
+set hcol 1001
+set htyp 1
+hi/plot 99311 'S'
+
+*PICTURE/PRINT 'esp_b590_211_311.eps'
+*PICTURE/PRINT 'esp_b59x_0123_211_311.eps'
+PICTURE/PRINT 'esp_b59x_all_211_311.eps'
+
+
+endif

@@ -1,0 +1,11 @@
+
+Date    	job     	input			i_photon	ndiv_max
+
+25jun2005	guin00001	photons_b590-591	1		200
+26jun2005	guin00002	photons_b590-591	2		200
+26jun2005	guin00003	ebeam_in_b590-591	-		200
+26jun2005	guin00004	pbeam_in_b590-591	-		200
+26jun2005	guin00005	lumi_b590-591		-		200
+26jun2005	guin00006	lumi_b590-592		-		200
+26jun2005	guin00007	photons_b590-592	1		200
+26jun2005	guin00008	ebeam_in_b590-592	-		200

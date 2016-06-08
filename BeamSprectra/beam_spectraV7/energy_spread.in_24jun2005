@@ -1,0 +1,10 @@
+ &energy_spread_input
+!
+  i_sqrts = 500
+  i_photon = 1   ! Applicable if background photon file is specified.  Use 1 (2) to produce .grd,.hbk files for photons from electron (positron) beam
+  single_file_name = 
+  '../ilc_0500_may05_run05_seed06/background_photons/photons_b590.dat'
+  '../ilc_0500_may05_run05_seed06/background_photons/photons_b591.dat'
+!
+/
+

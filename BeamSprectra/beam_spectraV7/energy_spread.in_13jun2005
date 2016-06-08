@@ -1,0 +1,11 @@
+ &energy_spread_input
+!
+  i_sqrts = 500
+  single_file_name = 
+  '../ilc_0500_may05_run05_seed06_lumi/lumi_b_0_tenth.dat'
+  '../ilc_0500_may05_run05_seed06_lumi/lumi_b_1_tenth.dat'
+  '../ilc_0500_may05_run05_seed06_lumi/lumi_b_2_tenth.dat'
+!
+/
+
+

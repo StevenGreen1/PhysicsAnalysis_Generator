@@ -1,0 +1,2469 @@
+  just opened iu,energy_spread_in_name= 11 energy_spread.in
+  about to do namelist read  u= 11
+ i_sqrts=         500
+ n_single_file=           1
+ single_file_name=
+ ../ilc_0500_may05_run05_seed06_lumi/lumi_b_1_tenth.dat                                              
+  ifile,grid_file,hbook_file= 1 ../ilc_0500_may05_run05_seed06_lumi/lumi_b_1_tenth.grd                                              ../ilc_0500_may05_run05_seed06_lumi/lumi_b_1_tenth.hbk                                              
+  ifile= 1  about to open ../ilc_0500_may05_run05_seed06_lumi/lumi_b_1_tenth.dat                                              
+ ifile,nrec,ndiv= 1 10000 20
+  ifile= 1  about to again open ../ilc_0500_may05_run05_seed06_lumi/lumi_b_1_tenth.dat                                              
+  ndel= 500
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 1 1 499.000000 498.000000 13.0000000 13.0000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 1 2 499.000000 502.000000 12.0000000 25.0000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 1 3 499.000000 496.000000 51.0000000 76.0000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 1 4 499.000000 496.000000 42.0000000 118.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 1 5 499.000000 496.000000 38.0000000 156.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 1 6 499.000000 496.000000 37.0000000 193.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 1 7 499.000000 509.000000 30.0000000 223.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 1 8 499.000000 507.000000 28.0000000 251.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 1 9 499.000000 492.000000 22.0000000 273.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 1 10 499.000000 501.000000 16.0000000 289.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 1 11 499.000000 481.000000 14.0000000 303.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 1 12 499.000000 513.000000 20.0000000 323.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 1 13 499.000000 497.000000 30.0000000 353.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 1 14 499.000000 499.000000 20.0000000 373.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 1 15 499.000000 505.000000 22.0000000 395.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 1 16 499.000000 504.000000 22.0000000 417.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 1 17 499.000000 500.000000 24.0000000 441.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 1 18 499.000000 503.000000 21.0000000 462.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 1 19 499.000000 504.000000 21.0000000 483.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 1 20 499.000000 500.000000 16.0000000 499.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 2 1 497.000000 498.000000 25.0000000 524.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 2 2 497.000000 502.000000 37.0000000 561.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 2 3 497.000000 496.000000 23.0000000 584.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 2 4 497.000000 496.000000 30.0000000 614.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 2 5 497.000000 496.000000 27.0000000 641.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 2 6 497.000000 496.000000 24.0000000 665.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 2 7 497.000000 509.000000 15.0000000 680.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 2 8 497.000000 507.000000 27.0000000 707.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 2 9 497.000000 492.000000 29.0000000 736.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 2 10 497.000000 501.000000 22.0000000 758.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 2 11 497.000000 481.000000 24.0000000 782.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 2 12 497.000000 513.000000 20.0000000 802.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 2 13 497.000000 497.000000 23.0000000 825.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 2 14 497.000000 499.000000 21.0000000 846.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 2 15 497.000000 505.000000 25.0000000 871.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 2 16 497.000000 504.000000 36.0000000 907.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 2 17 497.000000 500.000000 25.0000000 932.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 2 18 497.000000 503.000000 23.0000000 955.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 2 19 497.000000 504.000000 21.0000000 976.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 2 20 497.000000 500.000000 20.0000000 996.000000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 3 1 504.000000 498.000000 33.0000000 1029.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 3 2 504.000000 502.000000 28.0000000 1057.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 3 3 504.000000 496.000000 21.0000000 1078.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 3 4 504.000000 496.000000 23.0000000 1101.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 3 5 504.000000 496.000000 20.0000000 1121.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 3 6 504.000000 496.000000 17.0000000 1138.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 3 7 504.000000 509.000000 25.0000000 1163.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 3 8 504.000000 507.000000 25.0000000 1188.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 3 9 504.000000 492.000000 25.0000000 1213.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 3 10 504.000000 501.000000 21.0000000 1234.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 3 11 504.000000 481.000000 31.0000000 1265.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 3 12 504.000000 513.000000 30.0000000 1295.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 3 13 504.000000 497.000000 34.0000000 1329.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 3 14 504.000000 499.000000 24.0000000 1353.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 3 15 504.000000 505.000000 32.0000000 1385.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 3 16 504.000000 504.000000 24.0000000 1409.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 3 17 504.000000 500.000000 27.0000000 1436.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 3 18 504.000000 503.000000 17.0000000 1453.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 3 19 504.000000 504.000000 22.0000000 1475.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 3 20 504.000000 500.000000 25.0000000 1500.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 4 1 498.000000 498.000000 27.0000000 1527.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 4 2 498.000000 502.000000 32.0000000 1559.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 4 3 498.000000 496.000000 31.0000000 1590.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 4 4 498.000000 496.000000 25.0000000 1615.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 4 5 498.000000 496.000000 29.0000000 1644.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 4 6 498.000000 496.000000 28.0000000 1672.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 4 7 498.000000 509.000000 21.0000000 1693.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 4 8 498.000000 507.000000 23.0000000 1716.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 4 9 498.000000 492.000000 25.0000000 1741.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 4 10 498.000000 501.000000 24.0000000 1765.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 4 11 498.000000 481.000000 24.0000000 1789.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 4 12 498.000000 513.000000 27.0000000 1816.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 4 13 498.000000 497.000000 23.0000000 1839.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 4 14 498.000000 499.000000 23.0000000 1862.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 4 15 498.000000 505.000000 23.0000000 1885.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 4 16 498.000000 504.000000 21.0000000 1906.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 4 17 498.000000 500.000000 23.0000000 1929.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 4 18 498.000000 503.000000 21.0000000 1950.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 4 19 498.000000 504.000000 20.0000000 1970.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 4 20 498.000000 500.000000 28.0000000 1998.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 5 1 500.000000 498.000000 32.0000000 2030.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 5 2 500.000000 502.000000 23.0000000 2053.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 5 3 500.000000 496.000000 21.0000000 2074.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 5 4 500.000000 496.000000 17.0000000 2091.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 5 5 500.000000 496.000000 20.0000000 2111.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 5 6 500.000000 496.000000 27.0000000 2138.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 5 7 500.000000 509.000000 22.0000000 2160.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 5 8 500.000000 507.000000 21.0000000 2181.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 5 9 500.000000 492.000000 27.0000000 2208.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 5 10 500.000000 501.000000 24.0000000 2232.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 5 11 500.000000 481.000000 34.0000000 2266.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 5 12 500.000000 513.000000 26.0000000 2292.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 5 13 500.000000 497.000000 26.0000000 2318.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 5 14 500.000000 499.000000 27.0000000 2345.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 5 15 500.000000 505.000000 23.0000000 2368.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 5 16 500.000000 504.000000 26.0000000 2394.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 5 17 500.000000 500.000000 36.0000000 2430.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 5 18 500.000000 503.000000 19.0000000 2449.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 5 19 500.000000 504.000000 28.0000000 2477.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 5 20 500.000000 500.000000 21.0000000 2498.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 6 1 497.000000 498.000000 28.0000000 2526.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 6 2 497.000000 502.000000 24.0000000 2550.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 6 3 497.000000 496.000000 21.0000000 2571.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 6 4 497.000000 496.000000 17.0000000 2588.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 6 5 497.000000 496.000000 28.0000000 2616.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 6 6 497.000000 496.000000 24.0000000 2640.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 6 7 497.000000 509.000000 24.0000000 2664.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 6 8 497.000000 507.000000 21.0000000 2685.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 6 9 497.000000 492.000000 27.0000000 2712.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 6 10 497.000000 501.000000 25.0000000 2737.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 6 11 497.000000 481.000000 26.0000000 2763.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 6 12 497.000000 513.000000 29.0000000 2792.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 6 13 497.000000 497.000000 25.0000000 2817.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 6 14 497.000000 499.000000 22.0000000 2839.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 6 15 497.000000 505.000000 19.0000000 2858.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 6 16 497.000000 504.000000 27.0000000 2885.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 6 17 497.000000 500.000000 23.0000000 2908.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 6 18 497.000000 503.000000 31.0000000 2939.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 6 19 497.000000 504.000000 27.0000000 2966.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 6 20 497.000000 500.000000 29.0000000 2995.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 7 1 503.000000 498.000000 16.0000000 3011.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 7 2 503.000000 502.000000 27.0000000 3038.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 7 3 503.000000 496.000000 27.0000000 3065.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 7 4 503.000000 496.000000 20.0000000 3085.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 7 5 503.000000 496.000000 26.0000000 3111.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 7 6 503.000000 496.000000 31.0000000 3142.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 7 7 503.000000 509.000000 31.0000000 3173.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 7 8 503.000000 507.000000 20.0000000 3193.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 7 9 503.000000 492.000000 28.0000000 3221.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 7 10 503.000000 501.000000 32.0000000 3253.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 7 11 503.000000 481.000000 13.0000000 3266.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 7 12 503.000000 513.000000 25.0000000 3291.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 7 13 503.000000 497.000000 30.0000000 3321.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 7 14 503.000000 499.000000 35.0000000 3356.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 7 15 503.000000 505.000000 19.0000000 3375.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 7 16 503.000000 504.000000 28.0000000 3403.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 7 17 503.000000 500.000000 25.0000000 3428.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 7 18 503.000000 503.000000 24.0000000 3452.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 7 19 503.000000 504.000000 24.0000000 3476.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 7 20 503.000000 500.000000 22.0000000 3498.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 8 1 497.000000 498.000000 24.0000000 3522.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 8 2 497.000000 502.000000 28.0000000 3550.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 8 3 497.000000 496.000000 19.0000000 3569.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 8 4 497.000000 496.000000 34.0000000 3603.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 8 5 497.000000 496.000000 23.0000000 3626.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 8 6 497.000000 496.000000 30.0000000 3656.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 8 7 497.000000 509.000000 28.0000000 3684.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 8 8 497.000000 507.000000 26.0000000 3710.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 8 9 497.000000 492.000000 15.0000000 3725.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 8 10 497.000000 501.000000 34.0000000 3759.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 8 11 497.000000 481.000000 23.0000000 3782.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 8 12 497.000000 513.000000 28.0000000 3810.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 8 13 497.000000 497.000000 23.0000000 3833.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 8 14 497.000000 499.000000 17.0000000 3850.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 8 15 497.000000 505.000000 23.0000000 3873.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 8 16 497.000000 504.000000 29.0000000 3902.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 8 17 497.000000 500.000000 17.0000000 3919.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 8 18 497.000000 503.000000 26.0000000 3945.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 8 19 497.000000 504.000000 24.0000000 3969.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 8 20 497.000000 500.000000 25.0000000 3994.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 9 1 495.000000 498.000000 35.0000000 4029.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 9 2 495.000000 502.000000 18.0000000 4047.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 9 3 495.000000 496.000000 25.0000000 4072.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 9 4 495.000000 496.000000 27.0000000 4099.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 9 5 495.000000 496.000000 17.0000000 4116.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 9 6 495.000000 496.000000 36.0000000 4152.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 9 7 495.000000 509.000000 19.0000000 4171.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 9 8 495.000000 507.000000 24.0000000 4195.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 9 9 495.000000 492.000000 27.0000000 4222.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 9 10 495.000000 501.000000 25.0000000 4247.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 9 11 495.000000 481.000000 29.0000000 4276.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 9 12 495.000000 513.000000 28.0000000 4304.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 9 13 495.000000 497.000000 16.0000000 4320.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 9 14 495.000000 499.000000 27.0000000 4347.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 9 15 495.000000 505.000000 24.0000000 4371.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 9 16 495.000000 504.000000 21.0000000 4392.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 9 17 495.000000 500.000000 28.0000000 4420.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 9 18 495.000000 503.000000 19.0000000 4439.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 9 19 495.000000 504.000000 27.0000000 4466.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 9 20 495.000000 500.000000 23.0000000 4489.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 10 1 502.000000 498.000000 33.0000000 4522.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 10 2 502.000000 502.000000 21.0000000 4543.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 10 3 502.000000 496.000000 15.0000000 4558.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 10 4 502.000000 496.000000 18.0000000 4576.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 10 5 502.000000 496.000000 25.0000000 4601.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 10 6 502.000000 496.000000 22.0000000 4623.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 10 7 502.000000 509.000000 30.0000000 4653.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 10 8 502.000000 507.000000 28.0000000 4681.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 10 9 502.000000 492.000000 21.0000000 4702.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 10 10 502.000000 501.000000 23.0000000 4725.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 10 11 502.000000 481.000000 21.0000000 4746.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 10 12 502.000000 513.000000 28.0000000 4774.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 10 13 502.000000 497.000000 26.0000000 4800.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 10 14 502.000000 499.000000 23.0000000 4823.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 10 15 502.000000 505.000000 33.0000000 4856.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 10 16 502.000000 504.000000 27.0000000 4883.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 10 17 502.000000 500.000000 23.0000000 4906.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 10 18 502.000000 503.000000 26.0000000 4932.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 10 19 502.000000 504.000000 36.0000000 4968.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 10 20 502.000000 500.000000 23.0000000 4991.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 11 1 503.000000 498.000000 18.0000000 5009.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 11 2 503.000000 502.000000 25.0000000 5034.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 11 3 503.000000 496.000000 18.0000000 5052.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 11 4 503.000000 496.000000 34.0000000 5086.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 11 5 503.000000 496.000000 25.0000000 5111.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 11 6 503.000000 496.000000 25.0000000 5136.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 11 7 503.000000 509.000000 27.0000000 5163.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 11 8 503.000000 507.000000 27.0000000 5190.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 11 9 503.000000 492.000000 38.0000000 5228.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 11 10 503.000000 501.000000 32.0000000 5260.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 11 11 503.000000 481.000000 22.0000000 5282.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 11 12 503.000000 513.000000 24.0000000 5306.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 11 13 503.000000 497.000000 26.0000000 5332.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 11 14 503.000000 499.000000 26.0000000 5358.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 11 15 503.000000 505.000000 26.0000000 5384.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 11 16 503.000000 504.000000 24.0000000 5408.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 11 17 503.000000 500.000000 19.0000000 5427.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 11 18 503.000000 503.000000 20.0000000 5447.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 11 19 503.000000 504.000000 16.0000000 5463.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 11 20 503.000000 500.000000 31.0000000 5494.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 12 1 496.000000 498.000000 22.0000000 5516.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 12 2 496.000000 502.000000 29.0000000 5545.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 12 3 496.000000 496.000000 17.0000000 5562.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 12 4 496.000000 496.000000 23.0000000 5585.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 12 5 496.000000 496.000000 29.0000000 5614.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 12 6 496.000000 496.000000 19.0000000 5633.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 12 7 496.000000 509.000000 24.0000000 5657.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 12 8 496.000000 507.000000 17.0000000 5674.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 12 9 496.000000 492.000000 31.0000000 5705.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 12 10 496.000000 501.000000 36.0000000 5741.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 12 11 496.000000 481.000000 26.0000000 5767.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 12 12 496.000000 513.000000 32.0000000 5799.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 12 13 496.000000 497.000000 22.0000000 5821.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 12 14 496.000000 499.000000 24.0000000 5845.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 12 15 496.000000 505.000000 28.0000000 5873.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 12 16 496.000000 504.000000 21.0000000 5894.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 12 17 496.000000 500.000000 29.0000000 5923.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 12 18 496.000000 503.000000 24.0000000 5947.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 12 19 496.000000 504.000000 21.0000000 5968.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 12 20 496.000000 500.000000 22.0000000 5990.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 13 1 507.000000 498.000000 23.0000000 6013.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 13 2 507.000000 502.000000 32.0000000 6045.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 13 3 507.000000 496.000000 35.0000000 6080.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 13 4 507.000000 496.000000 22.0000000 6102.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 13 5 507.000000 496.000000 34.0000000 6136.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 13 6 507.000000 496.000000 16.0000000 6152.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 13 7 507.000000 509.000000 27.0000000 6179.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 13 8 507.000000 507.000000 25.0000000 6204.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 13 9 507.000000 492.000000 22.0000000 6226.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 13 10 507.000000 501.000000 31.0000000 6257.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 13 11 507.000000 481.000000 24.0000000 6281.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 13 12 507.000000 513.000000 18.0000000 6299.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 13 13 507.000000 497.000000 26.0000000 6325.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 13 14 507.000000 499.000000 23.0000000 6348.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 13 15 507.000000 505.000000 25.0000000 6373.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 13 16 507.000000 504.000000 30.0000000 6403.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 13 17 507.000000 500.000000 22.0000000 6425.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 13 18 507.000000 503.000000 26.0000000 6451.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 13 19 507.000000 504.000000 26.0000000 6477.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 13 20 507.000000 500.000000 20.0000000 6497.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 14 1 495.000000 498.000000 32.0000000 6529.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 14 2 495.000000 502.000000 22.0000000 6551.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 14 3 495.000000 496.000000 21.0000000 6572.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 14 4 495.000000 496.000000 25.0000000 6597.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 14 5 495.000000 496.000000 15.0000000 6612.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 14 6 495.000000 496.000000 18.0000000 6630.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 14 7 495.000000 509.000000 28.0000000 6658.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 14 8 495.000000 507.000000 20.0000000 6678.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 14 9 495.000000 492.000000 23.0000000 6701.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 14 10 495.000000 501.000000 29.0000000 6730.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 14 11 495.000000 481.000000 24.0000000 6754.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 14 12 495.000000 513.000000 22.0000000 6776.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 14 13 495.000000 497.000000 23.0000000 6799.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 14 14 495.000000 499.000000 23.0000000 6822.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 14 15 495.000000 505.000000 28.0000000 6850.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 14 16 495.000000 504.000000 31.0000000 6881.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 14 17 495.000000 500.000000 26.0000000 6907.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 14 18 495.000000 503.000000 26.0000000 6933.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 14 19 495.000000 504.000000 30.0000000 6963.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 14 20 495.000000 500.000000 29.0000000 6992.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 15 1 501.000000 498.000000 20.0000000 7012.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 15 2 501.000000 502.000000 26.0000000 7038.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 15 3 501.000000 496.000000 29.0000000 7067.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 15 4 501.000000 496.000000 21.0000000 7088.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 15 5 501.000000 496.000000 22.0000000 7110.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 15 6 501.000000 496.000000 27.0000000 7137.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 15 7 501.000000 509.000000 15.0000000 7152.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 15 8 501.000000 507.000000 28.0000000 7180.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 15 9 501.000000 492.000000 20.0000000 7200.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 15 10 501.000000 501.000000 20.0000000 7220.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 15 11 501.000000 481.000000 18.0000000 7238.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 15 12 501.000000 513.000000 22.0000000 7260.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 15 13 501.000000 497.000000 29.0000000 7289.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 15 14 501.000000 499.000000 29.0000000 7318.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 15 15 501.000000 505.000000 29.0000000 7347.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 15 16 501.000000 504.000000 34.0000000 7381.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 15 17 501.000000 500.000000 27.0000000 7408.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 15 18 501.000000 503.000000 28.0000000 7436.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 15 19 501.000000 504.000000 26.0000000 7462.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 15 20 501.000000 500.000000 31.0000000 7493.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 16 1 499.000000 498.000000 29.0000000 7522.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 16 2 499.000000 502.000000 23.0000000 7545.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 16 3 499.000000 496.000000 16.0000000 7561.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 16 4 499.000000 496.000000 24.0000000 7585.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 16 5 499.000000 496.000000 27.0000000 7612.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 16 6 499.000000 496.000000 29.0000000 7641.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 16 7 499.000000 509.000000 27.0000000 7668.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 16 8 499.000000 507.000000 31.0000000 7699.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 16 9 499.000000 492.000000 22.0000000 7721.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 16 10 499.000000 501.000000 20.0000000 7741.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 16 11 499.000000 481.000000 24.0000000 7765.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 16 12 499.000000 513.000000 24.0000000 7789.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 16 13 499.000000 497.000000 20.0000000 7809.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 16 14 499.000000 499.000000 28.0000000 7837.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 16 15 499.000000 505.000000 28.0000000 7865.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 16 16 499.000000 504.000000 15.0000000 7880.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 16 17 499.000000 500.000000 27.0000000 7907.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 16 18 499.000000 503.000000 32.0000000 7939.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 16 19 499.000000 504.000000 26.0000000 7965.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 16 20 499.000000 500.000000 27.0000000 7992.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 17 1 507.000000 498.000000 25.0000000 8017.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 17 2 507.000000 502.000000 26.0000000 8043.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 17 3 507.000000 496.000000 26.0000000 8069.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 17 4 507.000000 496.000000 20.0000000 8089.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 17 5 507.000000 496.000000 18.0000000 8107.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 17 6 507.000000 496.000000 23.0000000 8130.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 17 7 507.000000 509.000000 25.0000000 8155.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 17 8 507.000000 507.000000 35.0000000 8190.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 17 9 507.000000 492.000000 17.0000000 8207.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 17 10 507.000000 501.000000 22.0000000 8229.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 17 11 507.000000 481.000000 25.0000000 8254.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 17 12 507.000000 513.000000 22.0000000 8276.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 17 13 507.000000 497.000000 24.0000000 8300.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 17 14 507.000000 499.000000 29.0000000 8329.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 17 15 507.000000 505.000000 27.0000000 8356.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 17 16 507.000000 504.000000 24.0000000 8380.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 17 17 507.000000 500.000000 26.0000000 8406.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 17 18 507.000000 503.000000 34.0000000 8440.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 17 19 507.000000 504.000000 32.0000000 8472.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 17 20 507.000000 500.000000 27.0000000 8499.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 18 1 498.000000 498.000000 15.0000000 8514.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 18 2 498.000000 502.000000 24.0000000 8538.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 18 3 498.000000 496.000000 26.0000000 8564.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 18 4 498.000000 496.000000 27.0000000 8591.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 18 5 498.000000 496.000000 24.0000000 8615.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 18 6 498.000000 496.000000 22.0000000 8637.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 18 7 498.000000 509.000000 31.0000000 8668.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 18 8 498.000000 507.000000 22.0000000 8690.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 18 9 498.000000 492.000000 19.0000000 8709.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 18 10 498.000000 501.000000 27.0000000 8736.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 18 11 498.000000 481.000000 34.0000000 8770.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 18 12 498.000000 513.000000 24.0000000 8794.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 18 13 498.000000 497.000000 21.0000000 8815.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 18 14 498.000000 499.000000 25.0000000 8840.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 18 15 498.000000 505.000000 23.0000000 8863.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 18 16 498.000000 504.000000 23.0000000 8886.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 18 17 498.000000 500.000000 23.0000000 8909.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 18 18 498.000000 503.000000 34.0000000 8943.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 18 19 498.000000 504.000000 19.0000000 8962.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 18 20 498.000000 500.000000 35.0000000 8997.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 19 1 498.000000 498.000000 26.0000000 9023.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 19 2 498.000000 502.000000 22.0000000 9045.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 19 3 498.000000 496.000000 28.0000000 9073.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 19 4 498.000000 496.000000 30.0000000 9103.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 19 5 498.000000 496.000000 23.0000000 9126.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 19 6 498.000000 496.000000 23.0000000 9149.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 19 7 498.000000 509.000000 28.0000000 9177.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 19 8 498.000000 507.000000 25.0000000 9202.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 19 9 498.000000 492.000000 26.0000000 9228.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 19 10 498.000000 501.000000 13.0000000 9241.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 19 11 498.000000 481.000000 20.0000000 9261.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 19 12 498.000000 513.000000 33.0000000 9294.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 19 13 498.000000 497.000000 25.0000000 9319.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 19 14 498.000000 499.000000 24.0000000 9343.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 19 15 498.000000 505.000000 24.0000000 9367.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 19 16 498.000000 504.000000 21.0000000 9388.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 19 17 498.000000 500.000000 33.0000000 9421.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 19 18 498.000000 503.000000 27.0000000 9448.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 19 19 498.000000 504.000000 21.0000000 9469.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 19 20 498.000000 500.000000 26.0000000 9495.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 20 1 500.000000 498.000000 22.0000000 9517.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 20 2 500.000000 502.000000 23.0000000 9540.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 20 3 500.000000 496.000000 26.0000000 9566.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 20 4 500.000000 496.000000 17.0000000 9583.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 20 5 500.000000 496.000000 26.0000000 9609.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 20 6 500.000000 496.000000 17.0000000 9626.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 20 7 500.000000 509.000000 31.0000000 9657.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 20 8 500.000000 507.000000 33.0000000 9690.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 20 9 500.000000 492.000000 28.0000000 9718.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 20 10 500.000000 501.000000 25.0000000 9743.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 20 11 500.000000 481.000000 25.0000000 9768.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 20 12 500.000000 513.000000 31.0000000 9799.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 20 13 500.000000 497.000000 25.0000000 9824.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 20 14 500.000000 499.000000 29.0000000 9853.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 20 15 500.000000 505.000000 24.0000000 9877.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 20 16 500.000000 504.000000 20.0000000 9897.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 20 17 500.000000 500.000000 16.0000000 9913.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 20 18 500.000000 503.000000 25.0000000 9938.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 20 19 500.000000 504.000000 37.0000000 9975.00000
+  i,j,rcount_1,rcount_2,rcount,rcount_sum= 20 20 500.000000 500.000000 20.0000000 9995.00000
+  i,yl(1,i),yu(1,i),rho_single(1,i)= 1 200.802002 250.069000 1.01487816E-03
+  i,yl(2,i),yu(2,i),rho_single(2,i)= 1 156.229004 250.115997 5.32555103E-04
+  i,yl(1,i),yu(1,i),rho_single(1,i)= 2 250.069000 251.893005 2.74122022E-02
+  i,yl(2,i),yu(2,i),rho_single(2,i)= 2 250.115997 252.247986 2.34522838E-02
+  i,yl(1,i),yu(1,i),rho_single(1,i)= 3 251.893005 252.140503 0.202022195
+  i,yl(2,i),yu(2,i),rho_single(2,i)= 3 252.247986 252.473007 0.222201139
+  i,yl(1,i),yu(1,i),rho_single(1,i)= 4 252.140503 252.264999 0.401617855
+  i,yl(2,i),yu(2,i),rho_single(2,i)= 4 252.473007 252.529007 0.892861068
+  i,yl(1,i),yu(1,i),rho_single(1,i)= 5 252.264999 252.347000 0.609750628
+  i,yl(2,i),yu(2,i),rho_single(2,i)= 5 252.529007 252.570999 1.19069767
+  i,yl(1,i),yu(1,i),rho_single(1,i)= 6 252.347000 252.423996 0.649385631
+  i,yl(2,i),yu(2,i),rho_single(2,i)= 6 252.570999 252.602005 1.61259842
+  i,yl(1,i),yu(1,i),rho_single(1,i)= 7 252.423996 252.494003 0.714210987
+  i,yl(2,i),yu(2,i),rho_single(2,i)= 7 252.602005 252.630005 1.78572214
+  i,yl(1,i),yu(1,i),rho_single(1,i)= 8 252.494003 252.557999 0.781306624
+  i,yl(2,i),yu(2,i),rho_single(2,i)= 8 252.630005 252.652496 2.22306657
+  i,yl(1,i),yu(1,i),rho_single(1,i)= 9 252.557999 252.610992 0.943507075
+  i,yl(2,i),yu(2,i),rho_single(2,i)= 9 252.652496 252.673004 2.43809533
+  i,yl(1,i),yu(1,i),rho_single(1,i)= 10 252.610992 252.662003 0.980197430
+  i,yl(2,i),yu(2,i),rho_single(2,i)= 10 252.673004 252.692993 2.50137401
+  i,yl(1,i),yu(1,i),rho_single(1,i)= 11 252.662003 252.712997 0.980490685
+  i,yl(2,i),yu(2,i),rho_single(2,i)= 11 252.692993 252.712997 2.49946618
+  i,yl(1,i),yu(1,i),rho_single(1,i)= 12 252.712997 252.763000 0.999938965
+  i,yl(2,i),yu(2,i),rho_single(2,i)= 12 252.712997 252.733002 2.49946618
+  i,yl(1,i),yu(1,i),rho_single(1,i)= 13 252.763000 252.811005 1.04157662
+  i,yl(2,i),yu(2,i),rho_single(2,i)= 13 252.733002 252.753998 2.38139534
+  i,yl(1,i),yu(1,i),rho_single(1,i)= 14 252.811005 252.863007 0.961502373
+  i,yl(2,i),yu(2,i),rho_single(2,i)= 14 252.753998 252.774994 2.38139534
+  i,yl(1,i),yu(1,i),rho_single(1,i)= 15 252.863007 252.929993 0.746423662
+  i,yl(2,i),yu(2,i),rho_single(2,i)= 15 252.774994 252.796997 2.27239943
+  i,yl(1,i),yu(1,i),rho_single(1,i)= 16 252.929993 252.998993 0.724635124
+  i,yl(2,i),yu(2,i),rho_single(2,i)= 16 252.796997 252.822006 1.99926782
+  i,yl(1,i),yu(1,i),rho_single(1,i)= 17 252.998993 253.074493 0.662247360
+  i,yl(2,i),yu(2,i),rho_single(2,i)= 17 252.822006 252.850998 1.72463155
+  i,yl(1,i),yu(1,i),rho_single(1,i)= 18 253.074493 253.162003 0.571368814
+  i,yl(2,i),yu(2,i),rho_single(2,i)= 18 252.850998 252.882004 1.61259842
+  i,yl(1,i),yu(1,i),rho_single(1,i)= 19 253.162003 253.292999 0.381689012
+  i,yl(2,i),yu(2,i),rho_single(2,i)= 19 252.882004 252.936005 0.925911248
+  i,yl(1,i),yu(1,i),rho_single(1,i)= 20 253.292999 253.988007 7.19416887E-02
+  i,yl(2,i),yu(2,i),rho_single(2,i)= 20 252.936005 253.166000 0.217395350
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 1 1 200.802002 250.069000 156.229004 250.115997 2.81189443E-07 5.40478538E-07
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 1 2 200.802002 250.069000 250.115997 252.247986 1.14302957E-05 2.38012108E-05
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 1 3 200.802002 250.069000 252.247986 252.473007 4.60264564E-04 2.25507087E-04
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 1 4 200.802002 250.069000 252.473007 252.529007 1.52308540E-03 9.06145200E-04
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 1 5 200.802002 250.069000 252.529007 252.570999 1.83770666E-03 1.20841304E-03
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 1 6 200.802002 250.069000 252.570999 252.602005 2.42336630E-03 1.63659093E-03
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 1 7 200.802002 250.069000 252.602005 252.630005 2.17583636E-03 1.81229040E-03
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 1 8 200.802002 250.069000 252.630005 252.652496 2.52814265E-03 2.25614174E-03
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 1 9 200.802002 250.069000 252.652496 252.673004 2.17853440E-03 2.47436971E-03
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 1 10 200.802002 250.069000 252.673004 252.692993 1.62551028E-03 2.53858976E-03
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 1 11 200.802002 250.069000 252.692993 252.712997 1.42123655E-03 2.53665354E-03
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 1 12 200.802002 250.069000 252.712997 252.733002 2.03033793E-03 2.53665354E-03
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 1 13 200.802002 250.069000 252.733002 252.753998 2.90164212E-03 2.41682609E-03
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 1 14 200.802002 250.069000 252.753998 252.774994 1.93442800E-03 2.41682609E-03
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 1 15 200.802002 250.069000 252.774994 252.796997 2.03047879E-03 2.30620848E-03
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 1 16 200.802002 250.069000 252.796997 252.822006 1.78642478E-03 2.02901335E-03
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 1 17 200.802002 250.069000 252.822006 252.850998 1.68111990E-03 1.75029086E-03
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 1 18 200.802002 250.069000 252.850998 252.882004 1.37542409E-03 1.63659093E-03
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 1 19 200.802002 250.069000 252.882004 252.936005 7.89732032E-04 9.39687074E-04
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 1 20 200.802002 250.069000 252.936005 253.166000 1.41273689E-04 2.20629794E-04
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 2 1 250.069000 251.893005 156.229004 250.115997 1.46058128E-05 1.45985077E-05
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 2 2 250.069000 251.893005 250.115997 252.247986 9.51936527E-04 6.42878760E-04
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 2 3 250.069000 251.893005 252.247986 252.473007 5.60654374E-03 6.09102240E-03
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 2 4 250.069000 251.893005 252.473007 252.529007 2.93850377E-02 2.44752876E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 2 5 250.069000 251.893005 252.529007 252.570999 3.52684520E-02 3.26396450E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 2 6 250.069000 251.893005 252.570999 252.602005 4.24579121E-02 4.42048721E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 2 7 250.069000 251.893005 252.602005 252.630005 2.93850377E-02 4.89505753E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 2 8 250.069000 251.893005 252.630005 252.652496 6.58472031E-02 6.09391518E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 2 9 250.069000 251.893005 252.652496 252.673004 7.75657147E-02 6.68335631E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 2 10 250.069000 251.893005 252.673004 252.692993 6.03701808E-02 6.85681701E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 2 11 250.069000 251.893005 252.692993 252.712997 6.58081397E-02 6.85158744E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 2 12 250.069000 251.893005 252.712997 252.733002 5.48401140E-02 6.85158744E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 2 13 250.069000 251.893005 252.733002 252.753998 6.00869954E-02 6.52792901E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 2 14 250.069000 251.893005 252.753998 252.774994 5.48620373E-02 6.52792901E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 2 15 250.069000 251.893005 252.774994 252.796997 6.23226352E-02 6.22914732E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 2 16 250.069000 251.893005 252.796997 252.822006 7.89577216E-02 5.48043326E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 2 17 250.069000 251.893005 252.822006 252.850998 4.72996011E-02 4.72759493E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 2 18 250.069000 251.893005 252.850998 252.882004 4.06888314E-02 4.42048721E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 2 19 250.069000 251.893005 252.882004 252.936005 2.13309303E-02 2.53812671E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 2 20 250.069000 251.893005 252.936005 253.166000 4.76981327E-03 5.95928542E-03
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 3 1 251.893005 252.140503 156.229004 250.115997 1.42087141E-04 1.07587948E-04
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 3 2 251.893005 252.140503 250.115997 252.247986 5.30908210E-03 4.73788194E-03
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 3 3 251.893005 252.140503 252.247986 252.473007 3.77260931E-02 4.48895618E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 3 4 251.893005 252.140503 252.473007 252.529007 0.166030541 0.180377752
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 3 5 251.893005 252.140503 252.529007 252.570999 0.192534164 0.240547359
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 3 6 251.893005 252.140503 252.570999 252.602005 0.221641675 0.325780660
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 3 7 251.893005 252.140503 252.602005 252.630005 0.360935956 0.360755503
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 3 8 251.893005 252.140503 252.630005 252.652496 0.449333459 0.449108779
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 3 9 251.893005 252.140503 252.652496 252.673004 0.492795765 0.492549360
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 3 10 251.893005 252.140503 252.673004 252.692993 0.424692124 0.505333066
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 3 11 251.893005 252.140503 252.692993 252.712997 0.626448274 0.504947662
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 3 12 251.893005 252.140503 252.712997 252.733002 0.606240273 0.504947662
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 3 13 251.893005 252.140503 252.733002 252.753998 0.654616117 0.481094718
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 3 14 251.893005 252.140503 252.753998 252.774994 0.462081969 0.481094718
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 3 15 251.893005 252.140503 252.774994 252.796997 0.587910116 0.459075123
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 3 16 251.893005 252.140503 252.796997 252.822006 0.387934595 0.403896481
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 3 17 251.893005 252.140503 252.822006 252.850998 0.376475215 0.348413855
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 3 18 251.893005 252.140503 252.850998 252.882004 0.221641675 0.325780660
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 3 19 251.893005 252.140503 252.882004 252.936005 0.164690420 0.187054619
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 3 20 251.893005 252.140503 252.936005 253.166000 4.39406522E-02 4.39186841E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 4 1 252.140503 252.264999 156.229004 250.115997 2.31109894E-04 2.13883643E-04
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 4 2 252.140503 252.264999 250.115997 252.247986 1.20621668E-02 9.41885635E-03
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 4 3 252.140503 252.264999 252.247986 252.473007 0.110712878 8.92399475E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 4 4 252.140503 252.264999 252.473007 252.529007 0.358768314 0.358588934
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 4 5 252.140503 252.264999 252.529007 252.570999 0.554995835 0.478205442
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 4 6 252.140503 252.264999 252.570999 252.602005 0.725728989 0.647648335
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 4 7 252.140503 252.264999 252.602005 252.630005 0.602730751 0.717177868
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 4 8 252.140503 252.264999 252.630005 252.652496 0.821808279 0.892823219
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 4 9 252.140503 252.264999 252.652496 252.673004 0.979672372 0.979182601
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 4 10 252.140503 252.264999 252.673004 252.692993 0.964895070 1.00459647
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 4 11 252.140503 252.264999 252.692993 252.712997 0.964159012 1.00383019
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 4 12 252.140503 252.264999 252.712997 252.733002 1.08467901 1.00383019
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 4 13 252.140503 252.264999 252.733002 252.753998 0.880338192 0.956410885
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 4 14 252.140503 252.264999 252.753998 252.774994 0.880338192 0.956410885
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 4 15 252.140503 252.264999 252.774994 252.796997 0.840045333 0.912636161
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 4 16 252.140503 252.264999 252.796997 252.822006 0.674808383 0.802941680
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 4 17 252.140503 252.264999 252.822006 252.850998 0.637550175 0.692642808
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 4 18 252.140503 252.264999 252.850998 252.882004 0.544296682 0.647648335
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 4 19 252.140503 252.264999 252.882004 252.936005 0.297638804 0.371862501
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 4 20 252.140503 252.264999 252.936005 253.166000 9.78359506E-02 8.73098522E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 5 1 252.264999 252.347000 156.229004 250.115997 4.15857008E-04 3.24725814E-04
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 5 2 252.264999 252.347000 250.115997 252.247986 1.31626222E-02 1.43000446E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 5 3 252.264999 252.347000 252.247986 252.473007 0.113866247 0.135487288
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 5 4 252.264999 252.347000 252.473007 252.529007 0.370392561 0.544422626
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 5 5 252.264999 252.347000 252.529007 252.570999 0.581113517 0.726028681
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 5 6 252.264999 252.347000 252.570999 252.602005 1.06247687 0.983282924
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 5 7 252.264999 252.347000 252.602005 252.630005 0.958663106 1.08884525
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 5 8 252.264999 252.347000 252.630005 252.652496 1.13920319 1.35551620
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 5 9 252.264999 252.347000 252.652496 252.673004 1.60636377 1.48663020
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 5 10 252.264999 252.347000 252.673004 252.692993 1.46493828 1.52521431
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 5 11 252.264999 252.347000 252.692993 252.712997 2.07374620 1.52405107
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 5 12 252.264999 252.347000 252.712997 252.733002 1.58580601 1.52405107
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 5 13 252.264999 252.347000 252.733002 252.753998 1.51089513 1.45205736
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 5 14 252.264999 252.347000 252.753998 252.774994 1.56900644 1.45205736
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 5 15 252.264999 252.347000 252.774994 252.796997 1.27538705 1.38559699
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 5 16 252.264999 252.347000 252.796997 252.822006 1.26845133 1.21905482
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 5 17 252.264999 252.347000 252.822006 252.850998 1.51505470 1.05159521
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 5 18 252.264999 252.347000 252.850998 252.882004 0.747668862 0.983282924
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 5 19 252.264999 252.347000 252.882004 252.936005 0.632640362 0.564574957
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 5 20 252.264999 252.347000 252.936005 253.166000 0.111403540 0.132556945
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 6 1 252.347000 252.423996 156.229004 250.115997 3.87527456E-04 3.45833629E-04
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 6 2 252.347000 252.423996 250.115997 252.247986 1.46277072E-02 1.52295763E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 6 3 252.347000 252.423996 252.247986 252.473007 0.121267773 0.144294232
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 6 4 252.347000 252.423996 252.473007 252.529007 0.394468814 0.579811156
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 6 5 252.347000 252.423996 252.529007 252.570999 0.866441786 0.773221970
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 6 6 252.347000 252.423996 252.570999 252.602005 1.00581324 1.04719830
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 6 7 252.347000 252.423996 252.602005 252.630005 1.11379433 1.15962231
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 6 8 252.347000 252.423996 252.630005 252.652496 1.21325374 1.44362748
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 6 9 252.347000 252.423996 252.652496 252.673004 1.71078062 1.58326411
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 6 10 252.347000 252.423996 252.673004 252.692993 1.62516904 1.62435639
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 6 11 252.347000 252.423996 252.692993 252.712997 1.68888664 1.62311745
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 6 12 252.347000 252.423996 252.712997 252.733002 1.88375807 1.62311745
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 6 13 252.347000 252.423996 252.733002 252.753998 1.54721761 1.54644394
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 6 14 252.347000 252.423996 252.753998 252.774994 1.36155152 1.54644394
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 6 15 252.347000 252.423996 252.774994 252.796997 1.12206531 1.47566354
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 6 16 252.347000 252.423996 252.796997 252.822006 1.40286100 1.29829574
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 6 17 252.347000 252.423996 252.822006 252.850998 1.03087032 1.11995089
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 6 18 252.347000 252.423996 252.850998 252.882004 1.29917550 1.04719830
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 6 19 252.347000 252.423996 252.882004 252.936005 0.649700224 0.601273477
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 6 20 252.347000 252.423996 252.936005 253.166000 0.163843080 0.141173422
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 7 1 252.423996 252.494003 156.229004 250.115997 2.43550079E-04 3.80356709E-04
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 7 2 252.423996 252.494003 250.115997 252.247986 1.80989187E-02 1.67498793E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 7 3 252.423996 252.494003 252.247986 252.473007 0.171480104 0.158698499
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 7 4 252.423996 252.494003 252.473007 252.529007 0.510408163 0.637691200
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 7 5 252.423996 252.494003 252.529007 252.570999 0.884868205 0.850409329
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 7 6 252.423996 252.494003 252.570999 252.602005 1.42886651 1.15173554
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 7 7 252.423996 252.494003 252.602005 252.630005 1.58226526 1.27538240
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 7 8 252.423996 252.494003 252.630005 252.652496 1.27082622 1.58773851
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 7 9 252.423996 252.494003 252.652496 252.673004 1.95124769 1.74131453
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 7 10 252.423996 252.494003 252.673004 252.692993 2.28787518 1.78650880
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 7 11 252.423996 252.494003 252.692993 252.712997 0.928740323 1.78514624
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 7 12 252.423996 252.494003 252.712997 252.733002 1.78603911 1.78514624
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 7 13 252.423996 252.494003 252.733002 252.753998 2.04200339 1.70081866
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 7 14 252.423996 252.494003 252.753998 252.774994 2.38233757 1.70081866
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 7 15 252.423996 252.494003 252.774994 252.796997 1.23407626 1.62297261
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 7 16 252.423996 252.494003 252.796997 252.822006 1.60004699 1.42789900
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 7 17 252.423996 252.494003 252.822006 252.850998 1.23236692 1.23175085
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 7 18 252.423996 252.494003 252.850998 252.882004 1.10621917 1.15173554
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 7 19 252.423996 252.494003 252.882004 252.936005 0.635161698 0.661296010
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 7 20 252.423996 252.494003 252.936005 253.166000 0.136702552 0.155266151
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 8 1 252.494003 252.557999 156.229004 250.115997 3.99645127E-04 4.16088820E-04
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 8 2 252.494003 252.557999 250.115997 252.247986 2.05325019E-02 1.83234252E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 8 3 252.494003 252.557999 252.247986 252.473007 0.132007480 0.173607215
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 8 4 252.494003 252.557999 252.473007 252.529007 0.949208200 0.697598279
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 8 5 252.494003 252.557999 252.529007 252.570999 0.856304109 0.930299997
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 8 6 252.494003 252.557999 252.570999 252.602005 1.51267695 1.25993383
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 8 7 252.494003 252.557999 252.602005 252.630005 1.56340182 1.39519656
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 8 8 252.494003 252.557999 252.630005 252.652496 1.80727613 1.73689663
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 8 9 252.494003 252.557999 252.652496 252.673004 1.14351165 1.90490007
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 8 10 252.494003 252.557999 252.673004 252.692993 2.65923214 1.95434010
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 8 11 252.494003 252.557999 252.692993 252.712997 1.79752028 1.95284951
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 8 12 252.494003 252.557999 252.712997 252.733002 2.18828559 1.95284951
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 8 13 252.494003 252.557999 252.733002 252.753998 1.71260822 1.86059999
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 8 14 252.494003 252.557999 252.753998 252.774994 1.26584089 1.86059999
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 8 15 252.494003 252.557999 252.774994 252.796997 1.63422263 1.77544069
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 8 16 252.494003 252.557999 252.796997 252.822006 1.81287420 1.56204116
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 8 17 252.494003 252.557999 252.822006 252.850998 0.916735291 1.34746611
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 8 18 252.494003 252.557999 252.850998 252.882004 1.31098664 1.25993383
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 8 19 252.494003 252.557999 252.882004 252.936005 0.694831192 0.723420620
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 8 20 252.494003 252.557999 252.936005 253.166000 0.169937387 0.169852421
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 9 1 252.557999 252.610992 156.229004 250.115997 7.03809201E-04 5.02469484E-04
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 9 2 252.557999 252.610992 250.115997 252.247986 1.59396939E-02 2.21273955E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 9 3 252.557999 252.610992 252.247986 252.473007 0.209753215 0.209648341
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 9 4 252.557999 252.610992 252.473007 252.529007 0.910269499 0.842420757
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 9 5 252.557999 252.610992 252.529007 252.570999 0.764315724 1.12343168
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 9 6 252.557999 252.610992 252.570999 252.602005 2.19205308 1.52149796
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 9 7 252.557999 252.610992 252.602005 252.630005 1.28111994 1.68484151
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 9 8 252.557999 252.610992 252.630005 252.652496 2.01458693 2.09747910
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 9 9 252.557999 252.610992 252.652496 252.673004 2.48563170 2.30036020
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 9 10 252.557999 252.610992 252.673004 252.692993 2.36124468 2.36006403
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 9 11 252.557999 252.610992 252.692993 252.712997 2.73695469 2.35826397
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 9 12 252.557999 252.610992 252.712997 252.733002 2.64257669 2.35826397
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 9 13 252.557999 252.610992 252.733002 252.753998 1.43871188 2.24686337
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 9 14 252.557999 252.610992 252.753998 252.774994 2.42782617 2.24686337
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 9 15 252.557999 252.610992 252.774994 252.796997 2.05929351 2.14402485
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 9 16 252.557999 252.610992 252.796997 252.822006 1.58530426 1.88632333
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 9 17 252.557999 252.610992 252.822006 252.850998 1.82337785 1.62720203
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 9 18 252.557999 252.610992 252.850998 252.882004 1.15691698 1.52149796
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 9 19 252.557999 252.610992 252.882004 252.936005 0.943964064 0.873603821
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 9 20 252.557999 252.610992 252.936005 253.166000 0.188799322 0.205114052
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 10 1 252.610992 252.662003 156.229004 250.115997 6.89396809E-04 5.22009155E-04
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 10 2 252.610992 252.662003 250.115997 252.247986 1.93194691E-02 2.29878686E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 10 3 252.610992 252.662003 252.247986 252.473007 0.130745947 0.217800990
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 10 4 252.610992 252.662003 252.473007 252.529007 0.630444884 0.875180125
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 10 5 252.610992 252.662003 252.529007 252.570999 1.16770256 1.16711879
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 10 6 252.610992 252.662003 252.570999 252.602005 1.39168096 1.58066487
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 10 7 252.610992 252.662003 252.602005 252.630005 2.10148287 1.75036025
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 10 8 252.610992 252.662003 252.630005 252.652496 2.44175029 2.17904425
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 10 9 252.610992 252.662003 252.652496 252.673004 2.00844860 2.38981485
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 10 10 252.610992 252.662003 252.673004 252.692993 2.25682163 2.45184040
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 10 11 252.610992 252.662003 252.692993 252.712997 2.05900455 2.44997025
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 10 12 252.610992 252.662003 252.712997 252.733002 2.74533916 2.44997025
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 10 13 252.610992 252.662003 252.733002 252.753998 2.42882133 2.33423758
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 10 14 252.610992 252.662003 252.753998 252.774994 2.14857292 2.33423758
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 10 15 252.610992 252.662003 252.774994 252.796997 2.94163895 2.22740006
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 10 16 252.610992 252.662003 252.796997 252.822006 2.11751008 1.95967722
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 10 17 252.610992 252.662003 252.822006 252.850998 1.55601907 1.69047940
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 10 18 252.610992 252.662003 252.850998 252.882004 1.64471376 1.58066487
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 10 19 252.610992 252.662003 252.882004 252.936005 1.30756295 0.907575846
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 10 20 252.610992 252.662003 252.936005 253.166000 0.196141198 0.213090360
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 11 1 252.662003 252.712997 156.229004 250.115997 3.76147131E-04 5.22165326E-04
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 11 2 252.662003 252.712997 250.115997 252.247986 2.30062492E-02 2.29947455E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 11 3 252.662003 252.712997 252.247986 252.473007 0.156942099 0.217866153
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 11 4 252.662003 252.712997 252.473007 252.529007 1.19119668 0.875441968
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 11 5 252.662003 252.712997 252.529007 252.570999 1.16805208 1.16746795
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 11 6 252.662003 252.712997 252.570999 252.602005 1.58192873 1.58113778
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 11 7 252.662003 252.712997 252.602005 252.630005 1.89190066 1.75088394
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 11 8 252.662003 252.712997 252.630005 252.652496 2.35524940 2.17969608
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 11 9 252.662003 252.712997 252.652496 252.673004 3.63542271 2.39052987
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 11 10 252.662003 252.712997 252.673004 252.692993 3.14086509 2.45257401
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 11 11 252.662003 252.712997 252.692993 252.712997 2.15769768 2.45070338
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 11 12 252.662003 252.712997 252.712997 252.733002 2.35385203 2.45070338
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 11 13 252.662003 252.712997 252.733002 252.753998 2.42954826 2.33493590
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 11 14 252.662003 252.712997 252.753998 252.774994 2.42954826 2.33493590
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 11 15 252.662003 252.712997 252.774994 252.796997 2.31834841 2.22806644
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 11 16 252.662003 252.712997 252.796997 252.822006 1.88279450 1.96026349
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 11 17 252.662003 252.712997 252.822006 252.850998 1.28579175 1.69098520
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 11 18 252.662003 252.712997 252.850998 252.882004 1.26554298 1.58113778
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 11 19 252.662003 252.712997 252.882004 252.936005 0.581313014 0.907847345
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 11 20 252.662003 252.712997 252.936005 253.166000 0.264443338 0.213154122
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 12 1 252.712997 252.763000 156.229004 250.115997 4.68854356E-04 5.32522623E-04
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 12 2 252.712997 252.763000 250.115997 252.247986 2.72165965E-02 2.34508533E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 12 3 252.712997 252.763000 252.247986 252.473007 0.151163131 0.222187579
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 12 4 252.712997 252.763000 252.473007 252.529007 0.821792901 0.892806590
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 12 5 252.712997 252.763000 252.529007 252.570999 1.38181591 1.19062495
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 12 6 252.712997 252.763000 252.570999 252.602005 1.22611308 1.61249995
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 12 7 252.712997 252.763000 252.602005 252.630005 1.71504605 1.78561318
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 12 8 252.712997 252.763000 252.630005 252.652496 1.51234913 2.22293091
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 12 9 252.712997 252.763000 252.652496 252.673004 3.02456570 2.43794656
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 12 10 252.712997 252.763000 252.673004 252.692993 3.60356069 2.50122142
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 12 11 252.712997 252.763000 252.692993 252.712997 2.60058641 2.49931359
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 12 12 252.712997 252.763000 252.712997 252.733002 3.20072174 2.49931359
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 12 13 252.712997 252.763000 252.733002 252.753998 2.09654832 2.38124990
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 12 14 252.712997 252.763000 252.753998 252.774994 2.28714347 2.38124990
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 12 15 252.712997 252.763000 252.774994 252.796997 2.54620504 2.27226067
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 12 16 252.712997 252.763000 252.796997 252.822006 1.68012249 1.99914575
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 12 17 252.712997 252.763000 252.822006 252.850998 2.00145125 1.72452629
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 12 18 252.712997 252.763000 252.850998 252.882004 1.54877436 1.61249995
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 12 19 252.712997 252.763000 252.882004 252.936005 0.778107047 0.925854743
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 12 20 252.712997 252.763000 252.936005 253.166000 0.191391930 0.217382088
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 13 1 252.763000 252.811005 156.229004 250.115997 5.10576472E-04 5.54696948E-04
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 13 2 252.763000 252.811005 250.115997 252.247986 3.12826484E-02 2.44273506E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 13 3 252.763000 252.811005 252.247986 252.473007 0.324177384 0.231439516
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 13 4 252.763000 252.811005 252.473007 252.529007 0.818794608 0.929983199
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 13 5 252.763000 252.811005 252.529007 252.570999 1.68751955 1.24020290
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 13 6 252.763000 252.811005 252.570999 252.602005 1.07551038 1.67964482
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 13 7 252.763000 252.811005 252.602005 252.630005 2.00976849 1.85996640
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 13 8 252.763000 252.811005 252.630005 252.652496 2.31665254 2.31549406
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 13 9 252.763000 252.811005 252.652496 252.673004 2.23584533 2.53946304
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 13 10 252.763000 252.811005 252.673004 252.692993 3.23227835 2.60537267
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 13 11 252.763000 252.811005 252.692993 252.712997 2.50050020 2.60338545
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 13 12 252.763000 252.811005 252.712997 252.733002 1.87537515 2.60338545
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 13 13 252.763000 252.811005 252.733002 252.753998 2.58091235 2.48040581
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 13 14 252.763000 252.811005 252.753998 252.774994 2.28311491 2.48040581
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 13 15 252.763000 252.811005 252.774994 252.796997 2.36806226 2.36687803
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 13 16 252.763000 252.811005 252.796997 252.822006 2.50011873 2.08239055
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 13 17 252.763000 252.811005 252.822006 252.850998 1.58156633 1.79633594
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 13 18 252.763000 252.811005 252.850998 252.882004 1.74770451 1.67964482
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 13 19 252.763000 252.811005 252.882004 252.936005 1.00348556 0.964407504
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 13 20 252.763000 252.811005 252.936005 253.166000 0.181237742 0.226433918
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 14 1 252.811005 252.863007 156.229004 250.115997 6.55755692E-04 5.12052968E-04
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 14 2 252.811005 252.863007 250.115997 252.247986 1.98534224E-02 2.25494262E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 14 3 252.811005 252.863007 252.247986 252.473007 0.179553181 0.213646919
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 14 4 252.811005 252.863007 252.473007 252.529007 0.858917475 0.858488023
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 14 5 252.811005 252.863007 252.529007 252.570999 0.687258840 1.14485860
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 14 6 252.811005 252.863007 252.570999 252.602005 1.11693084 1.55051720
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 14 7 252.811005 252.863007 252.602005 252.630005 1.92397511 1.71697605
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 14 8 252.811005 252.863007 252.630005 252.652496 1.71084237 2.13748384
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 14 9 252.811005 252.863007 252.652496 252.673004 2.15777445 2.34423447
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 14 10 252.811005 252.863007 252.673004 252.692993 2.79128480 2.40507698
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 14 11 252.811005 252.863007 252.692993 252.712997 2.30826688 2.40324259
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 14 12 252.811005 252.863007 252.712997 252.733002 2.11591125 2.40324259
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 14 13 252.811005 252.863007 252.733002 252.753998 2.10759354 2.28971720
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 14 14 252.811005 252.863007 252.753998 252.774994 2.10759354 2.28971720
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 14 15 252.811005 252.863007 252.774994 252.796997 2.44833159 2.18491745
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 14 16 252.811005 252.863007 252.796997 252.822006 2.38484526 1.92230070
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 14 17 252.811005 252.863007 252.822006 252.850998 1.72542953 1.65823734
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 14 18 252.811005 252.863007 252.850998 252.882004 1.61334455 1.55051720
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 14 19 252.811005 252.863007 252.882004 252.936005 1.06885350 0.890265882
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 14 20 252.811005 252.863007 252.936005 253.166000 0.242591605 0.209026143
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 15 1 252.863007 252.929993 156.229004 250.115997 3.18168517E-04 3.97511729E-04
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 15 2 252.863007 252.929993 250.115997 252.247986 1.82146616E-02 1.75053403E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 15 3 252.863007 252.929993 252.247986 252.473007 0.192489415 0.165856183
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 15 4 252.863007 252.929993 252.473007 252.529007 0.560100257 0.666452646
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 15 5 252.863007 252.929993 252.529007 252.570999 0.782504380 0.888764918
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 15 6 252.863007 252.929993 252.570999 252.602005 1.30062652 1.20368159
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 15 7 252.863007 252.929993 252.602005 252.630005 0.800143242 1.33290529
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 15 8 252.863007 252.929993 252.630005 252.652496 1.85940123 1.65934944
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 15 9 252.863007 252.929993 252.652496 252.673004 1.45660996 1.81985199
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 15 10 252.863007 252.929993 252.673004 252.692993 1.49441504 1.86708474
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 15 11 252.863007 252.929993 252.692993 252.712997 1.34394765 1.86566067
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 15 12 252.863007 252.929993 252.712997 252.733002 1.64260280 1.86566067
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 15 13 252.863007 252.929993 252.733002 252.753998 2.06296635 1.77752984
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 15 14 252.863007 252.929993 252.753998 252.774994 2.06296635 1.77752984
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 15 15 252.863007 252.929993 252.774994 252.796997 1.96854460 1.69617271
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 15 16 252.863007 252.929993 252.796997 252.822006 2.03054452 1.49230075
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 15 17 252.863007 252.929993 252.822006 252.850998 1.39098585 1.28730583
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 15 18 252.863007 252.929993 252.850998 252.882004 1.34879780 1.20368159
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 15 19 252.863007 252.929993 252.882004 252.936005 0.719126582 0.691122055
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 15 20 252.863007 252.929993 252.936005 253.166000 0.201314256 0.162269026
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 16 1 252.929993 252.998993 156.229004 250.115997 4.47877363E-04 3.85908119E-04
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 16 2 252.929993 252.998993 250.115997 252.247986 1.56426225E-02 1.69943478E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 16 3 252.929993 252.998993 252.247986 252.473007 0.103100985 0.161014751
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 16 4 252.929993 252.998993 252.473007 252.529007 0.621429205 0.646998465
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 16 5 252.929993 252.998993 252.529007 252.570999 0.932313204 0.862821341
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 16 6 252.929993 252.998993 252.570999 252.602005 1.35619080 1.16854548
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 16 7 252.929993 252.998993 252.602005 252.630005 1.39821577 1.29399693
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 16 8 252.929993 252.998993 252.630005 252.652496 1.99853015 1.61091208
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 16 9 252.929993 252.998993 252.652496 252.673004 1.55549967 1.76672947
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 16 10 252.929993 252.998993 252.673004 252.692993 1.45079219 1.81258345
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 16 11 252.929993 252.998993 252.692993 252.712997 1.73962271 1.81120098
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 16 12 252.929993 252.998993 252.712997 252.733002 1.73962271 1.81120098
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 16 13 252.929993 252.998993 252.733002 252.753998 1.38120472 1.72564268
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 16 14 252.929993 252.998993 252.753998 252.774994 1.93368661 1.72564268
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 16 15 252.929993 252.998993 252.774994 252.796997 1.84518230 1.64666045
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 16 16 252.929993 252.998993 252.796997 252.822006 0.869678676 1.44873965
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 16 17 252.929993 252.998993 252.822006 252.850998 1.35038209 1.24972856
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 16 18 252.929993 252.998993 252.850998 252.882004 1.49648643 1.16854548
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 16 19 252.929993 252.998993 252.882004 252.936005 0.698134780 0.670947790
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 16 20 252.929993 252.998993 252.936005 253.166000 0.170220003 0.157532305
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 17 1 252.998993 253.074493 156.229004 250.115997 3.52859672E-04 3.52683215E-04
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 17 2 252.998993 253.074493 250.115997 252.247986 1.61605421E-02 1.55312130E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 17 3 252.998993 253.074493 252.247986 252.473007 0.153114751 0.147152111
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 17 4 252.998993 253.074493 252.473007 252.529007 0.473272532 0.591294885
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 17 5 252.998993 253.074493 252.529007 252.570999 0.568030179 0.788536370
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 17 6 252.998993 253.074493 252.570999 252.602005 0.982995391 1.06793904
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 17 7 252.998993 253.074493 252.602005 252.630005 1.18318129 1.18258977
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 17 8 252.998993 253.074493 252.630005 252.652496 2.06213903 1.47221994
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 17 9 252.998993 253.074493 252.652496 252.673004 1.09849226 1.61462224
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 17 10 252.998993 253.074493 252.673004 252.692993 1.45847428 1.65652835
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 17 11 252.998993 253.074493 252.692993 252.712997 1.65609288 1.65526485
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 17 12 252.998993 253.074493 252.712997 252.733002 1.45736170 1.65526485
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 17 13 252.998993 253.074493 252.733002 252.753998 1.51474726 1.57707274
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 17 14 252.998993 253.074493 252.753998 252.774994 1.83031964 1.57707274
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 17 15 252.998993 253.074493 252.774994 252.796997 1.62609494 1.50489056
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 17 16 252.998993 253.074493 252.796997 252.822006 1.27168536 1.32400978
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 17 17 252.998993 253.074493 252.822006 252.850998 1.18841231 1.14213264
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 17 18 252.998993 253.074493 252.850998 252.882004 1.45312369 1.06793904
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 17 19 252.998993 253.074493 252.882004 252.936005 0.785265982 0.613182306
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 17 20 252.998993 253.074493 252.936005 253.166000 0.155564830 0.143969491
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 18 1 253.074493 253.162003 156.229004 250.115997 1.82662567E-04 3.04285379E-04
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 18 2 253.074493 253.162003 250.115997 252.247986 1.28703425E-02 1.33999037E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 18 3 253.074493 253.162003 252.247986 252.473007 0.132103190 0.126958802
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 18 4 253.074493 253.162003 252.473007 252.529007 0.551240802 0.510152996
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 18 5 253.074493 253.162003 252.529007 252.570999 0.653441131 0.680327535
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 18 6 253.074493 253.162003 252.570999 252.602005 0.811227381 0.921388447
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 18 7 253.074493 253.162003 252.602005 252.630005 1.26581216 1.02030599
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 18 8 253.074493 253.162003 252.630005 252.652496 1.11832702 1.27019095
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 18 9 253.074493 253.162003 252.652496 252.673004 1.05924881 1.39305162
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 18 10 253.074493 253.162003 252.673004 252.692993 1.54431581 1.42920709
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 18 11 253.074493 253.162003 252.692993 252.712997 1.94321072 1.42811704
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 18 12 253.074493 253.162003 252.712997 252.733002 1.37167799 1.42811704
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 18 13 253.074493 253.162003 252.733002 252.753998 1.14352190 1.36065507
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 18 14 253.074493 253.162003 252.753998 252.774994 1.36133564 1.36065507
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 18 15 253.074493 253.162003 252.774994 252.796997 1.19510543 1.29837811
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 18 16 253.074493 253.162003 252.796997 252.822006 1.05145943 1.14231932
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 18 17 253.074493 253.162003 252.822006 252.850998 0.907022059 0.985400677
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 18 18 253.074493 253.162003 252.850998 252.882004 1.25371516 0.921388447
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 18 19 253.074493 253.162003 252.882004 252.936005 0.402269095 0.529036820
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 18 20 253.074493 253.162003 252.936005 253.166000 0.173985079 0.124212921
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 19 1 253.162003 253.292999 156.229004 250.115997 2.11506995E-04 2.03270436E-04
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 19 2 253.162003 253.292999 250.115997 252.247986 7.88124185E-03 8.95147864E-03
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 19 3 253.162003 253.292999 252.247986 252.473007 9.50366482E-02 8.48117322E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 19 4 253.162003 253.292999 252.473007 252.529007 0.409158856 0.340795249
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 19 5 253.162003 253.292999 252.529007 252.570999 0.418327272 0.454476207
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 19 6 253.162003 253.292999 252.570999 252.602005 0.566553414 0.615511119
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 19 7 253.162003 253.292999 252.602005 252.630005 0.763763189 0.681590497
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 19 8 253.162003 253.292999 252.630005 252.652496 0.848944485 0.848520100
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 19 9 253.162003 253.292999 252.652496 252.673004 0.968302011 0.930594206
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 19 10 253.162003 253.292999 252.673004 252.692993 0.496716768 0.954746962
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 19 11 253.162003 253.292999 252.692993 252.712997 0.763596714 0.954018772
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 19 12 253.162003 253.292999 252.712997 252.733002 1.25993466 0.954018772
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 19 13 253.162003 253.292999 252.733002 252.753998 0.909407020 0.908952415
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 19 14 253.162003 253.292999 252.753998 252.774994 0.873030841 0.908952415
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 19 15 253.162003 253.292999 252.774994 252.796997 0.833072424 0.867349863
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 19 16 253.162003 253.292999 252.796997 252.822006 0.641323447 0.763098538
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 19 17 253.162003 253.292999 252.822006 252.850998 0.869354904 0.658272922
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 19 18 253.162003 253.292999 252.850998 252.882004 0.665084481 0.615511119
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 19 19 253.162003 253.292999 252.882004 252.936005 0.297013044 0.353410155
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 19 20 253.162003 253.292999 252.936005 253.166000 8.63396749E-02 8.29774141E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 20 1 253.292999 253.988007 156.229004 250.115997 3.37322308E-05 3.83129118E-05
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 20 2 253.292999 253.988007 250.115997 252.247986 1.55299762E-03 1.68719690E-03
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 20 3 253.292999 253.988007 252.247986 252.473007 1.66332610E-02 1.59855243E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 20 4 253.292999 253.988007 252.473007 252.529007 4.37009223E-02 6.42339364E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 20 5 253.292999 253.988007 252.529007 252.570999 8.91317949E-02 8.56608003E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 20 6 253.292999 253.988007 252.570999 252.602005 7.89283365E-02 0.116013050
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 20 7 253.292999 253.988007 252.602005 252.630005 0.159379840 0.128467873
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 20 8 253.292999 253.988007 252.630005 252.652496 0.211214736 0.159931168
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 20 9 253.292999 253.988007 252.652496 252.673004 0.196547046 0.175400689
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 20 10 253.292999 253.988007 252.673004 252.692993 0.180043101 0.179953068
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 20 11 253.292999 253.988007 252.692993 252.712997 0.179905757 0.179815814
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 20 12 253.292999 253.988007 252.712997 252.733002 0.223083153 0.179815814
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 20 13 253.292999 253.988007 252.733002 252.753998 0.171407312 0.171321601
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 20 14 253.292999 253.988007 252.753998 252.774994 0.198832467 0.171321601
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 20 15 253.292999 253.988007 252.774994 252.796997 0.157019556 0.163480252
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 20 16 253.292999 253.988007 252.796997 252.822006 0.115122125 0.143830702
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 20 17 253.292999 253.988007 252.822006 252.850998 7.94463828E-02 0.124072909
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 20 18 253.292999 253.988007 252.850998 252.882004 0.116071083 0.116013050
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 20 19 253.292999 253.988007 252.882004 252.936005 9.86345187E-02 6.66116178E-02
+  i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)= 20 20 253.292999 253.988007 252.936005 253.166000 1.25180893E-02 1.56397894E-02
+1 e- energy                                                                      
+ 
+ HBOOK     ID =       211                                        DATE  13/06/2005            NO =     1
+ 
+     1080                                                                           -
+     1040                                                                           I
+     1000                                                                          -I
+      960                                                                         -II
+      920                                                                         I I
+      880                                                                         I I
+      840                                                                         I I-
+      800                                                                         I  I
+      760                                                                        -I  I-
+      720                                                                        I    I
+      680                                                                       -I    I
+      640                                                                       I     I-
+      600                                                                       I      I
+      560                                                                      -I      I
+      520                                                                      I       I
+      480                                                                      I       I-
+      440                                                                      I        I
+      400                                                                      I        I
+      360                                                                      I        I
+      320                                                                     -I        I-
+      280                                                                    -I          I
+      240                                                                    I           I
+      200                                                                    I           I-
+      160                                                                   -I            I
+      120                                                                  -I             I-
+       80                                                               ---I               I-
+       40       -- ------- ---------------------------------------------I                   I----
+ 
+ CHANNELS 100   0                                                                                                  1   
+           10   0        1         2         3         4         5         6         7         8         9         0   
+            1   1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890   
+ 
+ CONTENTS1000                                                                       1                               
+          100                                                              11235679908764211                        
+           10                    1      1  1 1   1  1111 11121 1  12122345815414732952347860631                     
+            1.  44 3672353 6155531983148626092499465151362366093595563211204821703767640159130166                   
+ 
+ INTEGRAT1000                                                                112234567789999999999999999999999999999
+          100                          11111111111222222222333333334444556679150743342961356777777777777777777777777
+           10      1122233344455678999902234466789001345678034566791357050895905258836930966256777777777777777777777
+            1.  4881746947734949232034862400915437389458469511038727368902264674474073778323667399999999999999999999
+ 
+ LOW-EDGE 100   2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+           10   4444444444444444444444444444444444444444445555555555555555555555555555555555555555555555555555555555
+            1.  5556666666666777777777888888888899999999990000000000111111111222222222233333333334444444444555555555
+            0   7890123456789013456789012345678901234567890123456789012346789012345678901234567890123456789012345689
+            0   6667777888899990000111122222333344445555666677778888899990000111122223333444445555666677778888999900
+ 
+ * ENTRIES =      10000      * ALL CHANNELS = 0.9779E+04      * UNDERFLOW = 0.2210E+03      * OVERFLOW = 0.0000E+00
+ * BIN WID = 0.1024E+00      * MEAN VALUE   = 0.2525E+03      * R . M . S = 0.8722E+00      * NEQUIVAL = 0.9779E+04
+1 e- energy                                                                           PART  1 OF  2
+ 
+ HBOOK     ID =       212                                        DATE  13/06/2005            NO =     2
+ 
+     9000
+     8750
+     8500
+     8250
+     8000
+     7750
+     7500
+     7250
+     7000
+     6750
+     6500
+     6250
+     6000
+     5750
+     5500
+     5250
+     5000
+     4750
+     4500
+     4250
+     4000
+     3750
+     3500
+     3250
+     3000
+     2750
+     2500
+     2250
+     2000
+     1750
+     1500
+     1250
+     1000
+      750
+      500
+      250
+ 
+ CHANNELS 100   0                                                                                                  1   
+           10   0        1         2         3         4         5         6         7         8         9         0   
+            1   1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890   
+ 
+ CONTENTS    .
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ INTEGRAT    .
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ LOW-EDGE 100                                                     11111111111111111111111111111111111111111111111111
+           10        11111222223333344444555556666677777888889999900000111112222233333444445555566666777778888899999
+            1.   246802468024680246802468024680246802468024680246802468024680246802468024680246802468024680246802468
+ 
+1 e- energy                                                                           PART  2 OF  2
+ 
+ HBOOK     ID =       212                                        DATE  13/06/2005            NO =     2
+ 
+     9000                                 -
+     8750                                 I
+     8500                                 I
+     8250                                 I
+     8000                                 I
+     7750                                 I
+     7500                                 I
+     7250                                 I
+     7000                                 I
+     6750                                 I
+     6500                                 I
+     6250                                 I
+     6000                                 I
+     5750                                 I
+     5500                                 I
+     5250                                 I
+     5000                                 I
+     4750                                 I
+     4500                                 I
+     4250                                 I
+     4000                                 I
+     3750                                 I
+     3500                                 I
+     3250                                 I
+     3000                                 I
+     2750                                 I
+     2500                                 I
+     2250                                 I
+     2000                                 I
+     1750                                 I
+     1500                                 I
+     1250                                 I
+     1000                                 I
+      750                                -I
+      500                                II
+      250       --  - -------------------II
+ 
+ CHANNELS 100   1                              
+           10   0        1         2           
+            1   1234567890123456789012345678   
+ 
+ CONTENTS1000                             8 
+          100                           168 
+           10                   11114248764 
+            1.  42  1 512916646936792336933 
+ 
+ INTEGRAT1000                             11
+ *10**- 1 100                            100
+           10                     1111234100
+            1.        1112233445680268219500
+            0   4666772354517176952136954700
+ 
+ LOW-EDGE 100   2222222222222222222222222222
+           10   0000011111222223333344444555
+            1.  0246802468024680246802468024
+ 
+ * ENTRIES =      10000      * ALL CHANNELS = 0.1000E+05      * UNDERFLOW = 0.0000E+00      * OVERFLOW = 0.0000E+00
+ * BIN WID = 0.2000E+01      * MEAN VALUE   = 0.2521E+03      * R . M . S = 0.3056E+01      * NEQUIVAL = 0.1000E+05
+1 e- energy                                                                           PART  1 OF 13
+ 
+ HBOOK     ID =       213                                        DATE  13/06/2005            NO =     3
+ 
+     2000
+     1950
+     1900
+     1850
+     1800
+     1750
+     1700
+     1650
+     1600
+     1550
+     1500
+     1450
+     1400
+     1350
+     1300
+     1250
+     1200
+     1150
+     1100
+     1050
+     1000
+      950
+      900
+      850
+      800
+      750
+      700
+      650
+      600
+      550
+      500
+      450
+      400
+      350
+      300
+      250
+      200
+      150
+      100
+       50
+ 
+ CHANNELS 100   0                                                                                                  1   
+           10   0        1         2         3         4         5         6         7         8         9         0   
+            1   1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890   
+ 
+ CONTENTS    .
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ INTEGRAT    .
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ LOW-EDGE  10                                                     11111111111111111111111111111111111111111111111111
+            1.       11111222223333344444555556666677777888889999900000111112222233333444445555566666777778888899999
+            0   0246802468024680246802468024680246802468024680246802468024680246802468024680246802468024680246802468
+ 
+1 e- energy                                                                           PART  2 OF 13
+ 
+ HBOOK     ID =       213                                        DATE  13/06/2005            NO =     3
+ 
+     2000
+     1950
+     1900
+     1850
+     1800
+     1750
+     1700
+     1650
+     1600
+     1550
+     1500
+     1450
+     1400
+     1350
+     1300
+     1250
+     1200
+     1150
+     1100
+     1050
+     1000
+      950
+      900
+      850
+      800
+      750
+      700
+      650
+      600
+      550
+      500
+      450
+      400
+      350
+      300
+      250
+      200
+      150
+      100
+       50
+ 
+ CHANNELS 100   1                                                                                                  2   
+           10   0        1         2         3         4         5         6         7         8         9         0   
+            1   1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890   
+ 
+ CONTENTS    .
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ INTEGRAT    .
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ LOW-EDGE  10   2222222222222222222222222222222222222222222222222233333333333333333333333333333333333333333333333333
+            1.  0000011111222223333344444555556666677777888889999900000111112222233333444445555566666777778888899999
+            0   0246802468024680246802468024680246802468024680246802468024680246802468024680246802468024680246802468
+ 
+1 e- energy                                                                           PART  3 OF 13
+ 
+ HBOOK     ID =       213                                        DATE  13/06/2005            NO =     3
+ 
+     2000
+     1950
+     1900
+     1850
+     1800
+     1750
+     1700
+     1650
+     1600
+     1550
+     1500
+     1450
+     1400
+     1350
+     1300
+     1250
+     1200
+     1150
+     1100
+     1050
+     1000
+      950
+      900
+      850
+      800
+      750
+      700
+      650
+      600
+      550
+      500
+      450
+      400
+      350
+      300
+      250
+      200
+      150
+      100
+       50
+ 
+ CHANNELS 100   2                                                                                                  3   
+           10   0        1         2         3         4         5         6         7         8         9         0   
+            1   1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890   
+ 
+ CONTENTS    .
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ INTEGRAT    .
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ LOW-EDGE  10   4444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555555555
+            1.  0000011111222223333344444555556666677777888889999900000111112222233333444445555566666777778888899999
+            0   0246802468024680246802468024680246802468024680246802468024680246802468024680246802468024680246802468
+ 
+1 e- energy                                                                           PART  4 OF 13
+ 
+ HBOOK     ID =       213                                        DATE  13/06/2005            NO =     3
+ 
+     2000
+     1950
+     1900
+     1850
+     1800
+     1750
+     1700
+     1650
+     1600
+     1550
+     1500
+     1450
+     1400
+     1350
+     1300
+     1250
+     1200
+     1150
+     1100
+     1050
+     1000
+      950
+      900
+      850
+      800
+      750
+      700
+      650
+      600
+      550
+      500
+      450
+      400
+      350
+      300
+      250
+      200
+      150
+      100
+       50
+ 
+ CHANNELS 100   3                                                                                                  4   
+           10   0        1         2         3         4         5         6         7         8         9         0   
+            1   1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890   
+ 
+ CONTENTS    .
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ INTEGRAT    .
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ LOW-EDGE  10   6666666666666666666666666666666666666666666666666677777777777777777777777777777777777777777777777777
+            1.  0000011111222223333344444555556666677777888889999900000111112222233333444445555566666777778888899999
+            0   0246802468024680246802468024680246802468024680246802468024680246802468024680246802468024680246802468
+ 
+1 e- energy                                                                           PART  5 OF 13
+ 
+ HBOOK     ID =       213                                        DATE  13/06/2005            NO =     3
+ 
+     2000
+     1950
+     1900
+     1850
+     1800
+     1750
+     1700
+     1650
+     1600
+     1550
+     1500
+     1450
+     1400
+     1350
+     1300
+     1250
+     1200
+     1150
+     1100
+     1050
+     1000
+      950
+      900
+      850
+      800
+      750
+      700
+      650
+      600
+      550
+      500
+      450
+      400
+      350
+      300
+      250
+      200
+      150
+      100
+       50
+ 
+ CHANNELS 100   4                                                                                                  5   
+           10   0        1         2         3         4         5         6         7         8         9         0   
+            1   1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890   
+ 
+ CONTENTS    .
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ INTEGRAT    .
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ LOW-EDGE  10   8888888888888888888888888888888888888888888888888899999999999999999999999999999999999999999999999999
+            1.  0000011111222223333344444555556666677777888889999900000111112222233333444445555566666777778888899999
+            0   0246802468024680246802468024680246802468024680246802468024680246802468024680246802468024680246802468
+ 
+1 e- energy                                                                           PART  6 OF 13
+ 
+ HBOOK     ID =       213                                        DATE  13/06/2005            NO =     3
+ 
+     2000
+     1950
+     1900
+     1850
+     1800
+     1750
+     1700
+     1650
+     1600
+     1550
+     1500
+     1450
+     1400
+     1350
+     1300
+     1250
+     1200
+     1150
+     1100
+     1050
+     1000
+      950
+      900
+      850
+      800
+      750
+      700
+      650
+      600
+      550
+      500
+      450
+      400
+      350
+      300
+      250
+      200
+      150
+      100
+       50
+ 
+ CHANNELS 100   5                                                                                                  6   
+           10   0        1         2         3         4         5         6         7         8         9         0   
+            1   1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890   
+ 
+ CONTENTS    .
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ INTEGRAT    .
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ LOW-EDGE 100   1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+           10   0000000000000000000000000000000000000000000000000011111111111111111111111111111111111111111111111111
+            1.  0000011111222223333344444555556666677777888889999900000111112222233333444445555566666777778888899999
+            0   0246802468024680246802468024680246802468024680246802468024680246802468024680246802468024680246802468
+ 
+1 e- energy                                                                           PART  7 OF 13
+ 
+ HBOOK     ID =       213                                        DATE  13/06/2005            NO =     3
+ 
+     2000
+     1950
+     1900
+     1850
+     1800
+     1750
+     1700
+     1650
+     1600
+     1550
+     1500
+     1450
+     1400
+     1350
+     1300
+     1250
+     1200
+     1150
+     1100
+     1050
+     1000
+      950
+      900
+      850
+      800
+      750
+      700
+      650
+      600
+      550
+      500
+      450
+      400
+      350
+      300
+      250
+      200
+      150
+      100
+       50
+ 
+ CHANNELS 100   6                                                                                                  7   
+           10   0        1         2         3         4         5         6         7         8         9         0   
+            1   1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890   
+ 
+ CONTENTS    .
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ INTEGRAT    .
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ LOW-EDGE 100   1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+           10   2222222222222222222222222222222222222222222222222233333333333333333333333333333333333333333333333333
+            1.  0000011111222223333344444555556666677777888889999900000111112222233333444445555566666777778888899999
+            0   0246802468024680246802468024680246802468024680246802468024680246802468024680246802468024680246802468
+ 
+1 e- energy                                                                           PART  8 OF 13
+ 
+ HBOOK     ID =       213                                        DATE  13/06/2005            NO =     3
+ 
+     2000
+     1950
+     1900
+     1850
+     1800
+     1750
+     1700
+     1650
+     1600
+     1550
+     1500
+     1450
+     1400
+     1350
+     1300
+     1250
+     1200
+     1150
+     1100
+     1050
+     1000
+      950
+      900
+      850
+      800
+      750
+      700
+      650
+      600
+      550
+      500
+      450
+      400
+      350
+      300
+      250
+      200
+      150
+      100
+       50
+ 
+ CHANNELS 100   7                                                                                                  8   
+           10   0        1         2         3         4         5         6         7         8         9         0   
+            1   1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890   
+ 
+ CONTENTS    .
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ INTEGRAT    .
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ LOW-EDGE 100   1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+           10   4444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555555555
+            1.  0000011111222223333344444555556666677777888889999900000111112222233333444445555566666777778888899999
+            0   0246802468024680246802468024680246802468024680246802468024680246802468024680246802468024680246802468
+ 
+1 e- energy                                                                           PART  9 OF 13
+ 
+ HBOOK     ID =       213                                        DATE  13/06/2005            NO =     3
+ 
+     2000
+     1950
+     1900
+     1850
+     1800
+     1750
+     1700
+     1650
+     1600
+     1550
+     1500
+     1450
+     1400
+     1350
+     1300
+     1250
+     1200
+     1150
+     1100
+     1050
+     1000
+      950
+      900
+      850
+      800
+      750
+      700
+      650
+      600
+      550
+      500
+      450
+      400
+      350
+      300
+      250
+      200
+      150
+      100
+       50
+ 
+ CHANNELS 100   8                                                                                                  9   
+           10   0        1         2         3         4         5         6         7         8         9         0   
+            1   1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890   
+ 
+ CONTENTS    .
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ INTEGRAT    .
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ LOW-EDGE 100   1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+           10   6666666666666666666666666666666666666666666666666677777777777777777777777777777777777777777777777777
+            1.  0000011111222223333344444555556666677777888889999900000111112222233333444445555566666777778888899999
+            0   0246802468024680246802468024680246802468024680246802468024680246802468024680246802468024680246802468
+ 
+1 e- energy                                                                           PART 10 OF 13
+ 
+ HBOOK     ID =       213                                        DATE  13/06/2005            NO =     3
+ 
+     2000
+     1950
+     1900
+     1850
+     1800
+     1750
+     1700
+     1650
+     1600
+     1550
+     1500
+     1450
+     1400
+     1350
+     1300
+     1250
+     1200
+     1150
+     1100
+     1050
+     1000
+      950
+      900
+      850
+      800
+      750
+      700
+      650
+      600
+      550
+      500
+      450
+      400
+      350
+      300
+      250
+      200
+      150
+      100
+       50
+ 
+ CHANNELS1000   0                                                                                                  1   
+          100   9                                                                                                  0   
+           10   0        1         2         3         4         5         6         7         8         9         0   
+            1   1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890   
+ 
+ CONTENTS    .
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ INTEGRAT    .
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ LOW-EDGE 100   1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+           10   8888888888888888888888888888888888888888888888888899999999999999999999999999999999999999999999999999
+            1.  0000011111222223333344444555556666677777888889999900000111112222233333444445555566666777778888899999
+            0   0246802468024680246802468024680246802468024680246802468024680246802468024680246802468024680246802468
+ 
+1 e- energy                                                                           PART 11 OF 13
+ 
+ HBOOK     ID =       213                                        DATE  13/06/2005            NO =     3
+ 
+     2000
+     1950
+     1900
+     1850
+     1800
+     1750
+     1700
+     1650
+     1600
+     1550
+     1500
+     1450
+     1400
+     1350
+     1300
+     1250
+     1200
+     1150
+     1100
+     1050
+     1000
+      950
+      900
+      850
+      800
+      750
+      700
+      650
+      600
+      550
+      500
+      450
+      400
+      350
+      300
+      250
+      200
+      150
+      100
+       50           -     -                                  -              -  - -             -      -  - -     ---
+ 
+ CHANNELS1000   1                                                                                                      
+          100   0                                                                                                  1   
+           10   0        1         2         3         4         5         6         7         8         9         0   
+            1   1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890   
+ 
+ CONTENTS   1.      4     2                                  1              1  1 3             1      1  1 1     314
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ INTEGRAT  10                                                                    11111111111111111111111111111111122
+            1.      444444666666666666666666666666666666666667777777777777778889922222222222222333333344455666666904
+ 
+ LOW-EDGE 100   2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+           10   0000000000000000000000000000000000000000000000000011111111111111111111111111111111111111111111111111
+            1.  0000011111222223333344444555556666677777888889999900000111112222233333444445555566666777778888899999
+            0   0246802468024680246802468024680246802468024680246802468024680246802468024680246802468024680246802468
+ 
+1 e- energy                                                                           PART 12 OF 13
+ 
+ HBOOK     ID =       213                                        DATE  13/06/2005            NO =     3
+ 
+     2000
+     1950
+     1900
+     1850
+     1800
+     1750
+     1700
+     1650
+     1600
+     1550
+     1500
+     1450
+     1400
+     1350
+     1300
+     1250
+     1200
+     1150
+     1100
+     1050
+     1000
+      950
+      900
+      850
+      800
+      750
+      700
+      650
+      600
+      550
+      500
+      450
+      400
+      350
+      300
+      250
+      200
+      150
+      100
+       50        -        -- - -     -  -  --     ---   --       ----- -    - - - ---  ---  -- --- -- -------- - - -
+ 
+ CHANNELS1000   1                                                                                                      
+          100   1                                                                                                  2   
+           10   0        1         2         3         4         5         6         7         8         9         0   
+            1   1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890   
+ 
+ CONTENTS   1.   1        11 2 2     1  2  21     211   23       14111 2    1 1 1 163  222  61 321 21 34223513 1 5 1
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ INTEGRAT 100                                                                                           111111111111
+           10   2222222222222223333333333333333333344444444444444455555555555555556666677777888888899999000111111222
+            1.  4555555555677991111112224446777777901111366666666712344666667788990699913555122578801148025014455001
+ 
+ LOW-EDGE 100   2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+           10   2222222222222222222222222222222222222222222222222233333333333333333333333333333333333333333333333333
+            1.  0000011111222223333344444555556666677777888889999900000111112222233333444445555566666777778888899999
+            0   0246802468024680246802468024680246802468024680246802468024680246802468024680246802468024680246802468
+ 
+1 e- energy                                                                           PART 13 OF 13
+ 
+ HBOOK     ID =       213                                        DATE  13/06/2005            NO =     3
+ 
+     2000                                                                      -
+     1950                                                                      I
+     1900                                                                      I
+     1850                                                                      I
+     1800                                                                      I
+     1750                                                                      I
+     1700                                                                      I
+     1650                                                                      I-
+     1600                                                                      II
+     1550                                                                     -II
+     1500                                                                     I I
+     1450                                                                     I I
+     1400                                                                     I I
+     1350                                                                     I I
+     1300                                                                     I I
+     1250                                                                     I I
+     1200                                                                    -I I-
+     1150                                                                    I   I
+     1100                                                                    I   I
+     1050                                                                    I   I
+     1000                                                                    I   I
+      950                                                                    I   I
+      900                                                                    I   I
+      850                                                                    I   I
+      800                                                                    I   I
+      750                                                                    I   I
+      700                                                                    I   I
+      650                                                                    I   I
+      600                                                                    I   I
+      550                                                                   -I   I-
+      500                                                                   I     I
+      450                                                                   I     I
+      400                                                                   I     I
+      350                                                                   I     I
+      300                                                                  -I     I
+      250                                                                  I      I
+      200                                                                  I      I-
+      150                                                                 -I       I
+      100                                                                -I        I-
+       50       ------------ ------- ------------------------------------I          I-
+ 
+ CHANNELS1000   1                                                                                  
+          100   2                                                                                  
+           10   0        1         2         3         4         5         6         7         8   
+            1   12345678901234567890123456789012345678901234567890123456789012345678901234567890   
+ 
+ CONTENTS1000                                                                11111              
+          100                                                             1251596151            
+           10                                  1     11 111112113224113347352639285951          
+            1.  139774423251 2134511 3615836474357679465097810760103860442247162920439          
+ 
+ INTEGRAT1000                                                                        11111111111
+ *10**- 1 100                                                              112468999900000000000
+           10   11111111111111111111111122222222222222333333344444555566679168330179900000000000
+            1.  22344555666667777888889900112234556789112467912479157925970584870832800000000000
+            0   25418268138991259456695619282936184104055419007334475115913745132448100000000000
+ 
+ LOW-EDGE 100   22222222222222222222222222222222222222222222222222222222222222222222222222222222
+           10   44444444444444444444444444444444444444444444444444555555555555555555555555555555
+            1.  00000111112222233333444445555566666777778888899999000001111122222333334444455555
+            0   02468024680246802468024680246802468024680246802468024680246802468024680246802468
+ 
+ * ENTRIES =      10000      * ALL CHANNELS = 0.1000E+05      * UNDERFLOW = 0.0000E+00      * OVERFLOW = 0.0000E+00
+ * BIN WID = 0.2000E+00      * MEAN VALUE   = 0.2521E+03      * R . M . S = 0.3056E+01      * NEQUIVAL = 0.1000E+05
+1 e+ energy                                                                      
+ 
+ HBOOK     ID =       311                                        DATE  13/06/2005            NO =     4
+ 
+     2500                                                                          -
+     2400                                                                          I
+     2300                                                                          I-
+     2200                                                                          II
+     2100                                                                          II
+     2000                                                                          II
+     1900                                                                          II
+     1800                                                                          II
+     1700                                                                          II
+     1600                                                                          II
+     1500                                                                         -II
+     1400                                                                         I I-
+     1300                                                                         I  I
+     1200                                                                         I  I
+     1100                                                                         I  I
+     1000                                                                         I  I
+      900                                                                         I  I
+      800                                                                         I  I
+      700                                                                        -I  I
+      600                                                                        I   I
+      500                                                                        I   I-
+      400                                                                        I    I
+      300                                                                       -I    I
+      200                                                                       I     I-
+      100       --------- ------------------------------------------------------I      I-
+ 
+ CHANNELS 100   0                                                                                                  1   
+           10   0        1         2         3         4         5         6         7         8         9         0   
+            1   1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890   
+ 
+ CONTENTS1000                                                                     1221                              
+          100                                                                   26442341                            
+           10                  1   1        1  1  1  11 111 11 22211121223133458033577401                           
+            1.  132834264 231551748271344657092234362023677828602328907996742268473720751                           
+ 
+ INTEGRAT1000                                                                   113579999999999999999999999999999999
+          100                         111111111111111122222223333334444455566678060581677777777777777777777777777777
+           10      1122233333446677999001122344666888911346780025780245815703732269529445555555555555555555555555555
+            1.  1464713933589490719189260618879148179914074242880353229873046842636355278888888888888888888888888888
+ 
+ LOW-EDGE 100   2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+           10   4444444444444444444444444444444444444444445555555555555555555555555555555555555555555555555555555555
+            1.  5556666666666777777777888888888899999999990000000000111111111222222222233333333334444444444555555555
+            0   7890123456789013456789012345678901234567890123456789012346789012345678901234567890123456789012345689
+            0   6667777888899990000111122222333344445555666677778888899990000111122223333444445555666677778888999900
+ 
+ * ENTRIES =      10000      * ALL CHANNELS = 0.9758E+04      * UNDERFLOW = 0.2420E+03      * OVERFLOW = 0.0000E+00
+ * BIN WID = 0.1024E+00      * MEAN VALUE   = 0.2525E+03      * R . M . S = 0.7824E+00      * NEQUIVAL = 0.9758E+04
+1 e+ energy                                                                           PART  1 OF  2
+ 
+ HBOOK     ID =       312                                        DATE  13/06/2005            NO =     5
+ 
+     9250
+     9000
+     8750
+     8500
+     8250
+     8000
+     7750
+     7500
+     7250
+     7000
+     6750
+     6500
+     6250
+     6000
+     5750
+     5500
+     5250
+     5000
+     4750
+     4500
+     4250
+     4000
+     3750
+     3500
+     3250
+     3000
+     2750
+     2500
+     2250
+     2000
+     1750
+     1500
+     1250
+     1000
+      750
+      500
+      250                                                                                     -         -     - - -
+ 
+ CHANNELS 100   0                                                                                                  1   
+           10   0        1         2         3         4         5         6         7         8         9         0   
+            1   1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890   
+ 
+ CONTENTS   1.                                                                                1         3     2 1 1 
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ INTEGRAT   1.                                                                                1111111111444444667788
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ LOW-EDGE 100                                                     11111111111111111111111111111111111111111111111111
+           10        11111222223333344444555556666677777888889999900000111112222233333444445555566666777778888899999
+            1.   246802468024680246802468024680246802468024680246802468024680246802468024680246802468024680246802468
+ 
+1 e+ energy                                                                           PART  2 OF  2
+ 
+ HBOOK     ID =       312                                        DATE  13/06/2005            NO =     5
+ 
+     9250                                 -
+     9000                                 I
+     8750                                 I
+     8500                                 I
+     8250                                 I
+     8000                                 I
+     7750                                 I
+     7500                                 I
+     7250                                 I
+     7000                                 I
+     6750                                 I
+     6500                                 I
+     6250                                 I
+     6000                                 I
+     5750                                 I
+     5500                                 I
+     5250                                 I
+     5000                                 I
+     4750                                 I
+     4500                                 I
+     4250                                 I
+     4000                                 I
+     3750                                 I
+     3500                                 I
+     3250                                 I
+     3000                                 I
+     2750                                 I
+     2500                                 I
+     2250                                 I
+     2000                                 I
+     1750                                 I
+     1500                                 I
+     1250                                 I
+     1000                                 I
+      750                                 I
+      500                                -I
+      250       - --  - -----------------II
+ 
+ CHANNELS 100   1                              
+           10   0        1         2           
+            1   1234567890123456789012345678   
+ 
+ CONTENTS1000                             9 
+          100                           141 
+           10                 1  1222459302 
+            1.  1 22  2 1266176471857005702 
+ 
+ INTEGRAT1000                             11
+ *10**- 1 100                             00
+           10                     1111234800
+            1.    11111111233355670259447700
+            0   9913335568401848564966618800
+ 
+ LOW-EDGE 100   2222222222222222222222222222
+           10   0000011111222223333344444555
+            1.  0246802468024680246802468024
+ 
+ * ENTRIES =      10000      * ALL CHANNELS = 0.1000E+05      * UNDERFLOW = 0.0000E+00      * OVERFLOW = 0.0000E+00
+ * BIN WID = 0.2000E+01      * MEAN VALUE   = 0.2521E+03      * R . M . S = 0.3428E+01      * NEQUIVAL = 0.1000E+05
+1 sqrt(s)                                                                             PART  1 OF  3
+ 
+ HBOOK     ID =       411                                        DATE  13/06/2005            NO =     6
+ 
+     1600
+     1560
+     1520
+     1480
+     1440
+     1400
+     1360
+     1320
+     1280
+     1240
+     1200
+     1160
+     1120
+     1080
+     1040
+     1000
+      960
+      920
+      880
+      840
+      800
+      760
+      720
+      680
+      640
+      600
+      560
+      520
+      480
+      440
+      400
+      360
+      320
+      280
+      240
+      200
+      160
+      120
+       80
+       40                    --       --              -              - -  ---      -     - -       --  -     -------
+ 
+ CHANNELS 100   0                                                                                                  1   
+           10   0        1         2         3         4         5         6         7         8         9         0   
+            1   1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890   
+ 
+ CONTENTS   1.               11       11              1              1 1  131      1     1 1       11  1     1222111
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ INTEGRAT  10                                                              11111111111111111111111111111111111222222
+            1.               122222222344444444444444455555555555555566777812222222333333445555555567778888889135678
+ 
+ LOW-EDGE 100   4444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444
+           10   5555555555555555555555555555555555555555666666666666666666666666666666666666666666666666667777777777
+            1.  2222233333444445555566666777778888899999000001111122222333334444455555666667777788888999990000011111
+            0   1357802468024680246802468024680246802468024680246802468024680246802468024680246802468024680246802468
+            0   0000999999999999999999999999999999988888888888888888888888888888877777777777777777777777777777776666
+ 
+1 sqrt(s)                                                                             PART  2 OF  3
+ 
+ HBOOK     ID =       411                                        DATE  13/06/2005            NO =     6
+ 
+     1600
+     1560
+     1520
+     1480
+     1440
+     1400
+     1360
+     1320
+     1280
+     1240
+     1200
+     1160
+     1120
+     1080
+     1040
+     1000
+      960
+      920
+      880
+      840
+      800
+      760
+      720
+      680
+      640
+      600
+      560
+      520
+      480
+      440
+      400
+      360
+      320
+      280
+      240
+      200
+      160
+      120
+       80
+       40       --   ------- ---   --- -- --  - -----  ------- ------ -----  --- ---------- ------------------------
+ 
+ CHANNELS 100   1                                                                                                  2   
+           10   0        1         2         3         4         5         6         7         8         9         0   
+            1   1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890   
+ 
+ CONTENTS   1.  31   1121211 111   112 11 12  1 13121  2522111 424324 11421  211 2126632116 133236333432367456633237
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ INTEGRAT 100                                                           11111111111111111111111111111111111112222222
+           10   3333333333444444444444445555555555566666677777788889999900000000011112233333344455566677789990111122
+            1.  1222234679011234444568890013334458912224913456602691556713444678801395801288925706925924730495147929
+ 
+ LOW-EDGE 100   4444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444
+           10   7777777777777777777777777777777777777777888888888888888888888888888888888888888888888888889999999999
+            1.  2222233333444445555566666777778888899999000001111122222333334444455555666667777788888999990000011111
+            0   0246802468024680246802468024680246802468024680246802468024680246802468024680246802468024680246802468
+            0   6666666666666666666666666665555555555555555555555555555555444444444444444444444444444444433333333333
+ 
+1 sqrt(s)                                                                             PART  3 OF  3
+ 
+ HBOOK     ID =       411                                        DATE  13/06/2005            NO =     6
+ 
+     1600                                                                          -
+     1560                                                                         -I
+     1520                                                                         II
+     1480                                                                         II
+     1440                                                                         II
+     1400                                                                         II
+     1360                                                                         II
+     1320                                                                         II
+     1280                                                                        -II-
+     1240                                                                        I  I
+     1200                                                                        I  I
+     1160                                                                        I  I
+     1120                                                                        I  I
+     1080                                                                        I  I
+     1040                                                                        I  I
+     1000                                                                        I  I
+      960                                                                        I  I
+      920                                                                        I  I
+      880                                                                        I  I
+      840                                                                        I  I-
+      800                                                                       -I   I
+      760                                                                       I    I
+      720                                                                       I    I
+      680                                                                       I    I
+      640                                                                       I    I
+      600                                                                       I    I
+      560                                                                       I    I
+      520                                                                       I    I
+      480                                                                       I    I
+      440                                                                      -I    I
+      400                                                                      I     I-
+      360                                                                      I      I
+      320                                                                      I      I
+      280                                                                      I      I
+      240                                                                     -I      I
+      200                                                                     I       I
+      160                                                                    -I       I-
+      120                                                                  --I         I
+       80                                                          - ------I           I-
+       40        --------------------------------------------------I-I                  I--
+ 
+ CHANNELS 100   2                                                                                                  3   
+           10   0        1         2         3         4         5         6         7         8         9         0   
+            1   1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890   
+ 
+ CONTENTS1000                                                                    1111                               
+          100                                                               112472552831                            
+           10        1                   11   11 1121 122222222233243456457803228526418241                          
+            1.   65294695883976562845847440959359220088485534075678557318321025600519035711                         
+ 
+ INTEGRAT1000                                                         1111111112345789999999999999999999999999999999
+          100   2222222222333333333333333344444444455555566667778889990112234582027364899999999999999999999999999999
+           10   2344567889001223334556677901123567801246924691360361494050766914279501027888888888888888888888888888
+            1.  9502151053143061797164859332769435777537505822940750525647900273338988163455555555555555555555555555
+ 
+ LOW-EDGE 100   4444444444444444444444444444444444444444555555555555555555555555555555555555555555555555555555555555
+           10   9999999999999999999999999999999999999999000000000000000000000000000000000000000000000000001111111111
+            1.  2222233333444445555566666777778888899999000001111122222333334444455555666667777788888999990000011111
+            0   0246802468024680246802468024680246802468024680246802468024680246802468024680246802468024680246802468
+            0   3333333333333333333322222222222222222222222222222221111111111111111111111111111111000000000000000000
+ 
+ * ENTRIES =      10000      * ALL CHANNELS = 0.9985E+04      * UNDERFLOW = 0.1500E+02      * OVERFLOW = 0.0000E+00
+ * BIN WID = 0.1997E+00      * MEAN VALUE   = 0.5043E+03      * R . M . S = 0.3973E+01      * NEQUIVAL = 0.9985E+04
+1 sqrt(s)                                                                             PART  1 OF  2
+ 
+ HBOOK     ID =       412                                        DATE  13/06/2005            NO =     7
+ 
+     8750
+     8500
+     8250
+     8000
+     7750
+     7500
+     7250
+     7000
+     6750
+     6500
+     6250
+     6000
+     5750
+     5500
+     5250
+     5000
+     4750
+     4500
+     4250
+     4000
+     3750
+     3500
+     3250
+     3000
+     2750
+     2500
+     2250
+     2000
+     1750
+     1500
+     1250
+     1000
+      750
+      500
+      250                                                                                                          -
+ 
+ CHANNELS 100   0                                                                                                  1   
+           10   0        1         2         3         4         5         6         7         8         9         0   
+            1   1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890   
+ 
+ CONTENTS   1.                                                                                                     1
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ INTEGRAT   1.                                                                                                     1
+            0   0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 
+ LOW-EDGE 100                            111111111111111111111111122222222222222222222222223333333333333333333333333
+           10      1122233444556667788899000112223344455666778889900011222334445566677888990001122233444556667788899
+            1.   482604826048260482604826048260482604826048260482604826048260482604826048260482604826048260482604826
+ 
+1 sqrt(s)                                                                             PART  2 OF  2
+ 
+ HBOOK     ID =       412                                        DATE  13/06/2005            NO =     7
+ 
+     8750                                 -
+     8500                                 I
+     8250                                 I
+     8000                                 I
+     7750                                 I
+     7500                                 I
+     7250                                 I
+     7000                                 I
+     6750                                 I
+     6500                                 I
+     6250                                 I
+     6000                                 I
+     5750                                 I
+     5500                                 I
+     5250                                 I
+     5000                                 I
+     4750                                 I
+     4500                                 I
+     4250                                 I
+     4000                                 I
+     3750                                 I
+     3500                                 I
+     3250                                 I
+     3000                                 I
+     2750                                 I
+     2500                                 I
+     2250                                 I
+     2000                                 I
+     1750                                 I
+     1500                                 I
+     1250                                 I
+     1000                                -I
+      750                                II
+      500                                II
+      250            -   ----------------II
+ 
+ CHANNELS 100   1                              
+           10   0        1         2           
+            1   1234567890123456789012345678   
+ 
+ CONTENTS1000                             8 
+          100                          1276 
+           10                    1114482182 
+            1.       3   211633642890303799 
+ 
+ INTEGRAT1000                             11
+ *10**- 1 100                            100
+           10                       11235300
+            1.              1122346716468700
+            0   1111144446784706020992252100
+ 
+ LOW-EDGE 100   4444444444444444444444444555
+           10   0001122233444556667788899000
+            1.  0482604826048260482604826048
+ 
+ * ENTRIES =      10000      * ALL CHANNELS = 0.1000E+05      * UNDERFLOW = 0.0000E+00      * OVERFLOW = 0.0000E+00
+ * BIN WID = 0.4000E+01      * MEAN VALUE   = 0.5042E+03      * R . M . S = 0.4743E+01      * NEQUIVAL = 0.1000E+05
+1 e+ vs e- energy                                                                
+ 
+ HBOOK     ID =       611                                        DATE  13/06/2005            NO =     8
+ 
+ CHANNELS  10 U 0        1         2         3         4         5         6 O 
+            1 N 123456789012345678901234567890123456789012345678901234567890 V 
+            ********************************************************************
+   OVE      *                                                                  * OVE
+   255.829  *                                                                  *  60
+   255.659  *                                                                  *  59
+   255.488  *                                                                  *  58
+   255.317  *                                                                  *  57
+   255.147  *                                                                  *  56
+   254.976  *                                                                  *  55
+   254.805  *                                                                  *  54
+   254.635  *                                                                  *  53
+   254.464  *                                                                  *  52
+   254.293  *                                                                  *  51
+   254.123  *                                                                  *  50
+   253.952  *                                                                  *  49
+   253.781  *                                                                  *  48
+   253.611  *                                                                  *  47
+   253.44   *                                                                  *  46
+   253.269  *                                                                  *  45
+   253.099  * +                        ++           +3443324+                  *  44
+   252.928  * 6   +           + +++  ++2 +2 +    44CHV******D8+3               *  43
+   252.757  * * + 25+52 3264224+28 4437625B553F76DS***********F3+              *  42
+   252.587  * * 3 24++3 6254+25+C467774877E476D9MOV***********L35              *  41
+   252.416  * * 3 2 2  + 2+5+27+23+33245449323459AEJS********H43               *  40
+   252.245  * H  ++  +    22 +2   + ++++ +      +3249LOUX*RKC5                 *  39
+   252.075  *                 2              ++  +24+75DDJC4 3 +               *  38
+   251.904  *                               + +   +4+667789723                 *  37
+   251.733  * +                                   + 3345CA23++                 *  36
+   251.563  * +                     +     ++   +++ ++24A9946 +                 *  35
+   251.392  * +                            +       22+42B8+82+ +               *  34
+   251.221  * +                     +       +     ++2+544363+                  *  33
+   251.051  * +                    +     +        + ++32833++                  *  32
+   250.88   * +                                      +42654 2                  *  31
+   250.709  *                      +         +  +  324B5433++                  *  30
+   250.539  *                                        23353522                  *  29
+   250.368  *                                       +3 53533 +                 *  28
+   250.197  *                             +        + 2+622++                   *  27
+   250.027  *           +                          ++2432463++                 *  26
+   249.856  * +                         +          32++2533++                  *  25
+   249.685  *                                         ++232+                   *  24
+   249.515  *                                        22+45  +                  *  23
+   249.344  *                                       + 2+2++                    *  22
+   249.173  *                                      +  42234                    *  21
+   249.003  *                                        2++2++                    *  20
+   248.832  *                                     + + ++22+   +                *  19
+   248.661  *                  ++                  + +2+3+2++                  *  18
+   248.491  *                                      ++2224+2  +                 *  17
+   248.32   *                                       + 2++   +                  *  16
+   248.149  *                                       +  2+ ++ +                 *  15
+   247.979  *                                           +3 +                   *  14
+   247.808  *                                    +  + +2  + +                  *  13
+   247.637  *                                       + 3262 +  +                *  12
+   247.467  *                                        +22+++ +                  *  11
+   247.296  *                                         333223+                  *  10
+   247.125  *                                        ++22+2                    *   9
+   246.954  *                                        + +   +                   *   8
+   246.784  *                                        +    3                    *   7
+   246.613  *                                        +     +                   *   6
+   246.442  *                                     +  22 3+                     *   5
+   246.272  *                                        + +++  +                  *   4
+   246.101  * +                                       ++ +3                    *   3
+   245.93   *                                       ++ + 2+                    *   2
+   245.76   *                                        +  +2                     *   1
+   UND      * 2 +      +  +      +   +   +  + ++3 28BDRW**PJ633                * UND
+            ********************************************************************
+ LOW-EDGE 100   222222222222222222222222222222222222222222222222222222222222
+           10   444444444444444444444444455555555555555555555555555555555555
+            1.  556666667777778888899999900000011111122222233333344444455555
+            0   791246791346891346801356802357802357902457912467912468913468
+            0   630741853074185296307419630741852963075296307418529631852963
+ 
+  *                                                          I         I
+  * ENTRIES =    10000                   PLOT       ---------I---------I---------
+  * SATURATION  AT=     INFINITY                      219    I 9539    I
+  * SCALE  .,+,2,3,.,., A,B,           STATISTICS   ---------I---------I---------
+  * STEP = 1.00     * MINIMUM=00.00                     2    I  240    I
+1 e+ vs e- energy                                                                
+ 
+ HBOOK     ID =       612                                        DATE  13/06/2005            NO =     9
+ 
+ CHANNELS  10 U 0        1         2         3         4         5         6 O 
+            1 N 123456789012345678901234567890123456789012345678901234567890 V 
+            ********************************************************************
+   OVE      *                                                                  * OVE
+   255.497  *                                                                  *  60
+   254.993  *                                                                  *  59
+   254.49   *                                                                  *  58
+   253.986  *                                                                  *  57
+   253.483  *                                                                  *  56
+   252.979  *                                         ++       3+  A***+       *  55
+   252.476  * X   3+3+  222 ++28 25+432765+64IA35+4646ACGDHRO*Z*********4      *  54
+   251.972  * 4      +  3+     +2+++   +2    2 32    2322++57+35436S***C       *  53
+   251.469  *                    +           +    +           + +236W*Q4       *  52
+   250.965  *                                    +2           2 +2 5M*L        *  51
+   250.462  *                                                 +  ++5U*D        *  50
+   249.958  *                                             +     +  3HSG+       *  49
+   249.455  *                                       +           +  39M7        *  48
+   248.952  *                                                      3BF5        *  47
+   248.448  *                                               ++     2AG52       *  46
+   247.945  *                                                      +493+       *  45
+   247.441  *                                                     +2CG5+       *  44
+   246.938  *                                                       4E7        *  43
+   246.434  *                                                      +652        *  42
+   245.931  *                           +                           4A3        *  41
+   245.427  *                                                      +472+       *  40
+   244.924  *                                                      247+        *  39
+   244.42   *                                                     + 562+       *  38
+   243.917  *                                                       +5+        *  37
+   243.413  *                                                      + 5+        *  36
+   242.91   *                                                     ++ 52        *  35
+   242.406  *                                                   +  2293        *  34
+   241.903  *                                      +                 32        *  33
+   241.4    *                                                      +233        *  32
+   240.896  *                                                      ++52        *  31
+   240.393  *                                                     + 222        *  30
+   239.889  *                                                       + +        *  29
+   239.386  *                                                        5+        *  28
+   238.882  *                                     +                2+42        *  27
+   238.379  *                                                        2         *  26
+   237.875  *                                                       232+       *  25
+   237.372  *                                                 +     24+        *  24
+   236.868  *                                                       23+        *  23
+   236.365  *                                          +           +24         *  22
+   235.861  *                                                      +22         *  21
+   235.358  *                                              +     +   ++        *  20
+   234.855  *                                                         +        *  19
+   234.351  *                                                        3         *  18
+   233.848  *                                                       2+         *  17
+   233.344  *                                                                  *  16
+   232.841  *                                                       ++2        *  15
+   232.337  *                                                     + +          *  14
+   231.834  *                                                      +2          *  13
+   231.33   *                                                                  *  12
+   230.827  *                                                        +         *  11
+   230.323  *                                                        +         *  10
+   229.82   *                                                      +32+        *   9
+   229.316  *                                                        +         *   8
+   228.813  *                                                       2+++       *   7
+   228.309  *                                                       +          *   6
+   227.806  *                                                        3 +       *   5
+   227.303  *                                                                  *   4
+   226.799  *                                                       ++         *   3
+   226.296  *                                                        ++        *   2
+   225.792  *                                                        +         *   1
+   UND      *                                             +  +    + 8E6        * UND
+            ********************************************************************
+ LOW-EDGE 100   222222222222222222222222222222222222222222222222222222222222
+           10   222222222333333333333333333334444444444444444444455555555555
+            1.  566778899001122334455667788990011223344556677889900112233445
+            0   738383838383838383838383838383949494949494949494949494949495
+            0   900011122233344455566677888999000111222333444555667778889990
+ 
+  *                                                          I         I
+  * ENTRIES =    10000                   PLOT       ---------I---------I---------
+  * SATURATION  AT=     INFINITY                       37    I 9932    I
+  * SCALE  .,+,2,3,.,., A,B,           STATISTICS   ---------I---------I---------
+  * STEP = 1.00     * MINIMUM=00.00                          I   31    I

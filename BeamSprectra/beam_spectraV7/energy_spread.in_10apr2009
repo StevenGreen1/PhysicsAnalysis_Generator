@@ -1,0 +1,31 @@
+ &energy_spread_input
+!
+  seed = 500013 
+  i_sqrts = 250
+  i_photon = 2   ! Applicable if background photon file is specified.  Use 1 (2) to produce .grd,.hbk files for photons from electron (positron) beam
+  single_file_name = 
+!  '/nfs/slac/g/lcd/ilc_data/whizdata/ILC250/guinea-pig/ilc_0250_jun08/lumi/ilc250n_lumi_000x.dat'
+!
+!  '/nfs/slac/g/lcd/ilc_data/whizdata/ILC250/guinea-pig/ilc_0250_jun08/lumi/ilc250n_lumi_00xx.dat'
+!  '/nfs/slac/g/lcd/ilc_data/whizdata/ILC250/guinea-pig/ilc_0250_jun08/lumi/ilc250n_lumi_01xx.dat'
+!  '/nfs/slac/g/lcd/ilc_data/whizdata/ILC250/guinea-pig/ilc_0250_jun08/lumi/ilc250n_lumi_02xx.dat'
+!  '/nfs/slac/g/lcd/ilc_data/whizdata/ILC250/guinea-pig/ilc_0250_jun08/lumi/ilc250n_lumi_03xx.dat'
+!
+!  '/nfs/slac/g/lcd/ilc_data/whizdata/ILC250/guinea-pig/ilc_0250_jun08/lumi/ilc250n_lumi_0xxx.dat'
+!  '/nfs/slac/g/lcd/ilc_data/whizdata/ILC250/guinea-pig/ilc_0250_jun08/lumi/ilc250n_lumi_1xxx.dat'
+!  '/nfs/slac/g/lcd/ilc_data/whizdata/ILC250/guinea-pig/ilc_0250_jun08/lumi/ilc250n_lumi_2xxx.dat'
+!  '/nfs/slac/g/lcd/ilc_data/whizdata/ILC250/guinea-pig/ilc_0250_jun08/lumi/ilc250n_lumi_3xxx.dat'
+!  '/nfs/slac/g/lcd/ilc_data/whizdata/ILC250/guinea-pig/ilc_0250_jun08/lumi/ilc250n_lumi_4xxx.dat'
+!  '/nfs/slac/g/lcd/ilc_data/whizdata/ILC250/guinea-pig/ilc_0250_jun08/lumi/ilc250n_lumi_5xxx.dat'
+!  '/nfs/slac/g/lcd/ilc_data/whizdata/ILC250/guinea-pig/ilc_0250_jun08/lumi/ilc250n_lumi_6xxx.dat'
+!  '/nfs/slac/g/lcd/ilc_data/whizdata/ILC250/guinea-pig/ilc_0250_jun08/lumi/ilc250n_lumi_7xxx.dat'
+!
+   '/nfs/slac/g/lcd/ilc_data/whizdata/ILC250/guinea-pig/ilc_0250_jun08/background_photons/ilc250n_photon_00xx.dat'
+!  '/nfs/slac/g/lcd/ilc_data/whizdata/ILC250/guinea-pig/ilc_0250_jun08/background_photons/ilc250n_photon_01xx.dat'
+!  '/nfs/slac/g/lcd/ilc_data/whizdata/ILC250/guinea-pig/ilc_0250_jun08/background_photons/ilc250n_photon_02xx.dat'
+!  '/nfs/slac/g/lcd/ilc_data/whizdata/ILC250/guinea-pig/ilc_0250_jun08/background_photons/ilc250n_photon_03xx.dat'
+!  '/nfs/slac/g/lcd/ilc_data/whizdata/ILC250/guinea-pig/ilc_0250_jun08/background_photons/ilc250n_photon_04xx.dat'
+!  '/nfs/slac/g/lcd/ilc_data/whizdata/ILC250/guinea-pig/ilc_0250_jun08/background_photons/ilc250n_photon_05xx.dat'
+!
+/
+

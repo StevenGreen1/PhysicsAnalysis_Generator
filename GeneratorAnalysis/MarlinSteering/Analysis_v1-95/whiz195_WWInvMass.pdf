@@ -1,0 +1,15 @@
+{
+//========= Macro generated from object: title/PaveText. A Pave with several lines of text.
+//========= by ROOT version5.34/30
+   
+   TPaveText *pt = new TPaveText(0.01,0.942509,0.234096,0.995,"blNDC");
+   pt->SetName("title");
+   pt->SetBorderSize(1);
+   pt->SetFillColor(0);
+   pt->SetLineColor(0);
+   pt->SetLineWidth(2);
+   pt->SetTextColor(0);
+   pt->SetTextFont(132);
+   TText *text = pt->AddText("Alpha4 0, Alpha5 0");
+   pt->Draw();
+}

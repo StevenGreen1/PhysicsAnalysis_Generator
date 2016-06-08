@@ -1,0 +1,9 @@
+ &energy_spread_input
+!
+  i_sqrts = 500
+  single_file_name = 
+  '../ilc_0500_may05_run05_seed06_lumi/lumi_b59x_all.dat'
+!
+/
+
+

@@ -1,0 +1,45 @@
+ &energy_spread_input
+!
+  seed = 5xxxxx 
+  i_sqrts = 500
+  i_photon = 1   ! Applicable if background photon file is specified.  Use 1 (2) to produce .grd,.hbk files for photons from electron (positron) beam
+  single_file_name = 
+! '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/lumi/lumi_b590.dat'
+! '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/lumi/lumi_b591.dat'
+! '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/lumi/lumi_b592.dat'
+!
+! '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/eminus_at_ip_pre_collision/ebeam_in_b590.dat'
+! '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/eminus_at_ip_pre_collision/ebeam_in_b591.dat'
+! '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/eminus_at_ip_pre_collision/ebeam_in_b592.dat'
+! '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/eminus_at_ip_pre_collision/ebeam_in_b593.dat'
+! '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/eminus_at_ip_pre_collision/ebeam_in_b594.dat'
+! '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/eminus_at_ip_pre_collision/ebeam_in_b595.dat'
+! '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/eminus_at_ip_pre_collision/ebeam_in_b596.dat'
+! '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/eminus_at_ip_pre_collision/ebeam_in_b597.dat'
+! '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/eminus_at_ip_pre_collision/ebeam_in_b598.dat'
+! '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/eminus_at_ip_pre_collision/ebeam_in_b599.dat'
+!
+  '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/eplus_at_ip_pre_collision/pbeam_in_b590.dat'
+  '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/eplus_at_ip_pre_collision/pbeam_in_b591.dat'
+  '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/eplus_at_ip_pre_collision/pbeam_in_b592.dat'
+  '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/eplus_at_ip_pre_collision/pbeam_in_b593.dat'
+  '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/eplus_at_ip_pre_collision/pbeam_in_b594.dat'
+  '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/eplus_at_ip_pre_collision/pbeam_in_b595.dat'
+  '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/eplus_at_ip_pre_collision/pbeam_in_b596.dat'
+  '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/eplus_at_ip_pre_collision/pbeam_in_b597.dat'
+  '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/eplus_at_ip_pre_collision/pbeam_in_b598.dat'
+  '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/eplus_at_ip_pre_collision/pbeam_in_b599.dat'
+!
+! '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/background_photons/photons_b590.dat'
+! '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/background_photons/photons_b591.dat'
+! '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/background_photons/photons_b592.dat'
+! '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/background_photons/photons_b593.dat'
+! '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/background_photons/photons_b594.dat'
+! '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/background_photons/photons_b595.dat'
+! '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/background_photons/photons_b596.dat'
+! '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/background_photons/photons_b597.dat'
+! '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/background_photons/photons_b598.dat'
+! '/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0500_may05_run05_seed06/background_photons/photons_b599.dat'
+!
+/
+

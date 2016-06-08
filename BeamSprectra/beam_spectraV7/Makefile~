@@ -1,0 +1,28 @@
+# test gnumake file for ww analysis
+CERNLIB = /afs/slac.stanford.edu/u/ea/timb/grace/four_fermion/cernlib_rh10/2003/lib
+CERNPRO = /cern/pro/lib
+FORT = lf95
+#LNXG2CLIB   = /usr/lib/gcc-lib/i386-redhat-linux/3.2.2
+LNXG2CLIB   = /usr/lib/gcc-lib/i386-redhat-linux/3.2.3
+MAKESOURCE  = $(shell cat make_source_list)
+F77FC=g77
+F77FFLAGS=-O -Wno-globals -fno-automatic -fdollar-ok -fno-backslash -finit-local-zero -fno-second-underscore -fugly-logint -ftypeless-boz
+F77CPPFLAGS = -DDETSIM -DCIRCE -DGZIO -DBKGR
+%.o: %.f90
+	$(FORT) -g -c  $<
+%.o: %.f
+	$(FORT) -g -c  $<
+%.o: %.F
+	$(F77FC) -c $(F77FFLAGS) $(F77CPPFLAGS) $<
+energy_spread: $(MAKESOURCE) 
+	lf95 -g  \
+	$(MAKESOURCE) \
+	-lnsl \
+	-L$(CERNLIB) -lkernlib -lpacklib -lmathlib \
+	-L$(CERNPRO) -lgraflib -lgrafX11  \
+	-lstdhep -lFmcfio  -lpythia6136 \
+	-L$(LNXG2CLIB) -lg2c \
+	-o $@ 
+
+
+

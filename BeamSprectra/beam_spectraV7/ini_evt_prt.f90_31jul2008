@@ -1,0 +1,501 @@
+module ini_evt_prt
+
+  use kinds, only: single, double
+  use pyr_inter
+  use pydatr_common
+  use energy_spread_states
+  use file_utils, only: free_unit
+
+  implicit none
+  private
+
+  public :: a6f_ini
+
+  Common/PAWC/H(10000000)
+  real(kind=single)          :: h
+
+  real(kind=double), parameter :: rn_unit=0.001d0
+  real(kind=single), parameter :: e_rn_min=1.0
+  real(kind=single) :: sqrts
+  real(kind=single) :: e1_gev
+  real(kind=single) :: e2_gev
+  real(kind=single) :: x_mm
+  real(kind=single) :: y_mm
+  real(kind=single) :: x_nm
+  real(kind=single) :: y_nm
+  real(kind=single) :: x_u
+  real(kind=single) :: y_u
+  real(kind=single) :: z_u
+  real(kind=single) :: photons_xp_rad
+  real(kind=single) :: photons_yp_rad
+  real(kind=single) :: unknown
+  real(kind=single) :: elec_xp_urad
+  real(kind=single) :: elec_yp_urad
+  real(kind=single) :: posi_xp_urad
+  real(kind=single) :: posi_yp_urad
+  real(kind=double), dimension(2) :: avg_energy_sum=(/0.d0,0.d0/)
+  real(kind=double), dimension(2) :: avg_energy_test=(/0.d0,0.d0/)
+  real(kind=double), dimension(2) :: avg_energy=(/0.d0,0.d0/)
+
+  real(kind=double) :: rcount
+  real(kind=double) :: rcount_1
+  real(kind=double) :: rcount_2
+  real(kind=double) :: rcount_sum
+
+  real(kind=double), dimension(:,:), pointer :: egev
+  real(kind=double), dimension(:,:), pointer :: rho_corr
+  real(kind=double), dimension(:,:), pointer :: rho_single
+  real(kind=double), dimension(:,:), pointer :: yl
+  real(kind=double), dimension(:,:), pointer :: yu
+
+  logical, dimension(:,:), pointer :: fg_ord
+  logical :: f_photons
+  logical :: f_ebeam_in
+  logical :: f_pbeam_in
+  logical :: f_lumi
+  logical, parameter :: do_fits=.true.
+  ! logical, parameter :: do_fits=.false.
+
+  integer :: ndiv
+  integer, dimension(:,:), pointer :: ig_ord
+  ! integer, parameter :: ndiv_max=20
+  integer, parameter :: ndiv_max=200
+  integer, parameter :: nscale=10
+
+
+contains
+
+  subroutine a6f_ini
+
+    real(kind=double)  :: sqrt_shat
+    integer :: icycle
+    integer :: istat
+    integer :: ios
+    integer :: ifile
+    integer :: iu
+    integer :: iu_hbook
+    integer :: irec
+    integer :: nrec
+    integer, dimension(:), pointer :: nrec_file
+    integer :: iu_ntup
+    character(len=200) :: grid_file
+    character(len=200) :: grid_file_1
+    character(len=200) :: grid_file_n
+    character(len=200) :: hbook_file
+    character(len=1) :: c_photon
+    logical :: f_ip
+    logical :: f_lumi
+    integer :: ndel
+    integer :: i
+    integer :: i1
+    integer :: i2
+    integer :: j
+    integer :: j1
+    integer :: j2
+    !
+    call energy_spread_state_create('energy_spread.in')
+
+    mrpy(1)=mcs%seed
+    mrpy(2)=0
+
+    iu_hbook=free_unit()
+    iu=free_unit()
+    call hlimit(10000000)
+    sqrts=1.024*real(mcs%i_sqrts)
+
+    write(unit=c_photon,fmt='(i1.1)') mcs%i_photon
+
+    grid_file_1=adjustr(mcs%single_file_name(1))
+    grid_file_n=adjustr(mcs%single_file_name(mcs%n_single_file))
+
+    f_photons=index(grid_file_1,'photons').ne.0
+    f_ebeam_in=index(grid_file_1,'beam1').ne.0
+    f_pbeam_in=index(grid_file_1,'beam2').ne.0
+    f_lumi=index(grid_file_1,'lumi').ne.0
+
+
+
+    check_f_photons_grid_file: if(f_photons) then
+!       grid_file=grid_file_1(11:190)//'_beam'//c_photon//grid_file_1(192:196)//'-'//grid_file_n(193:196)//'.grd'
+       grid_file=grid_file_1(11:191)//'_beam'//c_photon//grid_file_1(192:196)//'-'//grid_file_n(193:196)//'.grd'
+    else check_f_photons_grid_file
+ !      grid_file=grid_file_1(5:196)//'-'//grid_file_n(194:196)//'.grd'
+       grid_file=grid_file_1(6:196)//'-'//grid_file_n(193:196)//'.grd'
+    end if check_f_photons_grid_file
+    print *, " index(grid_file,'guinea-pig')= ", index(grid_file,'guinea-pig')
+
+    grid_file='/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/'//grid_file(index(grid_file,'guinea-pig'):200)
+
+!    grid_file='/nfs/slac/g/lcd/mc/prj/sw/dist/whizard/guinea-pig/ilc_0250_jun08/lumi/ilc250n_lumi_0xxx-0xxx.grd'
+    grid_file=adjustr(grid_file)
+
+    hbook_file=grid_file(1:196)//'.hbk'
+    grid_file=adjustl(grid_file)
+    hbook_file=adjustl(hbook_file)
+    print *, " "
+    print *, " grid_file=", grid_file
+    print *, " hbook_file=", hbook_file
+    print *, " "
+
+    !  if(1.ne.2) stop
+
+    call hropen(iu_hbook,'ANAHBK',hbook_file,'NX',1024,istat)
+    check_f_hbook: if(f_photons) then
+       call hbook1(211,' photon beam '//c_photon//' energy ', 100,0.,0.02*sqrts,0.)
+       call hbook1(212,' photon beam '//c_photon//' energy ', 128,0.,0.500*sqrts,0.)
+       call hbook1(213,' photon beam '//c_photon//' energy ', 1280,0.,0.500*sqrts,0.)
+    elseif(f_ebeam_in) then check_f_hbook
+       call hbook1(211,' e- energy ', 100,0.480*sqrts,0.500*sqrts,0.)
+       call hbook1(212,' e- energy ', 128,0.,0.500*sqrts,0.)
+       call hbook1(213,' e- energy ', 1280,0.,0.500*sqrts,0.)
+       call hbook1(711,' e- xpos (nm) ', 200,-2000.,2000.,0.)
+       call hbook1(712,' e- ypos (nm) ', 200,-20.,20.,0.)
+       call hbook1(713,' e- zpos (um) ', 200,-2000.,2000.,0.)
+    elseif(f_pbeam_in) then check_f_hbook
+       call hbook1(211,' e+ energy ', 100,0.480*sqrts,0.500*sqrts,0.)
+       call hbook1(212,' e+ energy ', 128,0.,0.500*sqrts,0.)
+       call hbook1(213,' e+ energy ', 1280,0.,0.500*sqrts,0.)
+       call hbook1(711,' e+ xpos (nm) ', 200,-2000.,2000.,0.)
+       call hbook1(712,' e+ ypos (nm) ', 200,-20.,20.,0.)
+       call hbook1(713,' e+ zpos (um) ', 200,-2000.,2000.,0.)
+    elseif(f_lumi) then check_f_hbook
+       call hbook1(211,' e- energy ', 100,0.480*sqrts,0.500*sqrts,0.)
+       call hbook1(212,' e- energy ', 128,0.,0.500*sqrts,0.)
+       call hbook1(213,' e- energy ', 1280,0.,0.500*sqrts,0.)
+       call hbook1(311,' e+ energy ', 100,0.480*sqrts,0.500*sqrts,0.)
+       call hbook1(312,' e+ energy ', 128,0.,0.500*sqrts,0.)
+       call hbook1(411,' sqrt(s) ', 300,0.883*sqrts,1.000*sqrts,0.)
+       call hbook1(412,' sqrt(s) ', 128,0.,1.000*sqrts,0.)
+       call hbook2(611,' e+ vs e- energy ', 60,0.480*sqrts,0.500*sqrts,60,0.480*sqrts,0.500*sqrts,0.)
+       call hbook2(612,' e+ vs e- energy ', 60,0.441*sqrts,0.500*sqrts,60,0.441*sqrts,0.500*sqrts,0.)
+       call hbook1(711,' xpos (nm) ', 200,-2000.,2000.,0.)
+       call hbook1(712,' ypos (nm) ', 200,-50.,50.,0.)
+       call hbook1(713,' zpos (um) ', 200,-2000.,2000.,0.)
+    end if check_f_hbook
+
+    call hidopt(0,'STAT')
+    call hidopt(0,'INTE')
+
+    allocate (nrec_file(mcs%n_single_file))
+
+    nrec=0
+    nrec_file=0
+
+    loop_ifile: do ifile=1,mcs%n_single_file
+
+       print *, " ifile=", ifile, " about to open ", mcs%single_file_name(ifile)
+       open(unit=iu,file=mcs%single_file_name(ifile),action='read',status='old',form='formatted')
+!       print *, " immediately after opening ", mcs%single_file_name(ifile)
+       loop_read: do
+          check_f_read: if(f_lumi) then
+             read(unit=iu,fmt=*,iostat=ios) e1_gev,e2_gev,x_nm,y_nm,z_u
+             check_ios_lumi: if(ios.eq.0) then
+                nrec_file(ifile)=nrec_file(ifile)+1
+                nrec=nrec+1
+             else check_ios_lumi
+                exit loop_read
+             end if check_ios_lumi
+          elseif(f_ebeam_in.or.f_pbeam_in) then check_f_read
+             read(unit=iu,fmt=*,iostat=ios) e1_gev,x_mm,y_mm,z_u,unknown
+!             print *, " ios,ifile,nrec_file(ifile)= ", ios,ifile,nrec_file(ifile)
+             check_ios_ebeam_in: if(ios.eq.0) then
+                nrec_file(ifile)=nrec_file(ifile)+1
+                nrec=nrec+1
+             else check_ios_ebeam_in
+                exit loop_read
+             end if check_ios_ebeam_in
+          elseif(f_photons) then check_f_read
+             read(unit=iu,fmt=*,iostat=ios) e1_gev,photons_xp_rad,photons_yp_rad
+             check_ios_photons: if(ios.eq.0) then
+                nrec_file(ifile)=nrec_file(ifile)+1
+                if((e1_gev.gt.0..and.mcs%i_photon.eq.1).or.(e1_gev.lt.0..and.mcs%i_photon.eq.2)) nrec=nrec+1
+             else check_ios_photons
+                exit loop_read
+             end if check_ios_photons
+          end if check_f_read
+       end do loop_read
+       close(unit=iu)
+    end do loop_ifile
+
+    ndiv=min(ndiv_max,nrec/nscale)
+    print *, "ndiv,nrec,nrec_file=", ndiv,nrec,nrec_file
+
+    allocate (egev(2,nrec))
+    allocate (ig_ord(2,nrec))
+    allocate (fg_ord(2,nrec))
+    allocate (rho_corr(ndiv,ndiv))
+    allocate (rho_single(2,ndiv))
+    allocate (yl(2,ndiv))
+    allocate (yu(2,ndiv))
+
+
+    egev=0.d0
+    ig_ord=0
+    fg_ord=.true.
+    rho_corr=0.d0
+    rho_single=0.d0
+    yl=0.d0
+    yu=1.d0
+
+
+    irec=0
+
+    loop_ifile_again: do ifile=1,mcs%n_single_file
+
+       print *, " ifile=", ifile, " about to again open ", mcs%single_file_name(ifile)
+       open(unit=iu,file=mcs%single_file_name(ifile),action='read',status='old',form='formatted')
+       loop_read_again: do i=1,nrec_file(ifile)
+          check_f_read_again: if(f_lumi) then
+             read(unit=iu,fmt=*,iostat=ios) e1_gev,e2_gev,x_nm,y_nm,z_u
+             irec=irec+1
+             if(e1_gev.gt.e_rn_min) egev(1,irec)=dble(e1_gev)-rn_unit+2.*rn_unit*pyr(0)
+             if(e2_gev.gt.e_rn_min) egev(2,irec)=dble(e2_gev)-rn_unit+2.*rn_unit*pyr(0)
+             ! print *, " irec,egev(1,irec),egev(2,irec)= ",  irec,egev(1,irec),egev(2,irec)
+             sqrt_shat=sqrt((egev(1,irec)+egev(2,irec))**2-(egev(1,irec)-egev(2,irec))**2)
+             avg_energy_test=avg_energy_test+egev(:,irec)
+             call hfill(211,real(egev(1,irec)),0.,1.)
+             call hfill(212,real(egev(1,irec)),0.,1.)
+             call hfill(213,real(egev(1,irec)),0.,1.)
+             call hfill(311,real(egev(2,irec)),0.,1.)
+             call hfill(312,real(egev(2,irec)),0.,1.)
+             call hfill(411,real(sqrt_shat),0.,1.)
+             call hfill(412,real(sqrt_shat),0.,1.)
+             call hfill(611,real(egev(1,irec)),real(egev(2,irec)),1.)
+             call hfill(612,real(egev(1,irec)),real(egev(2,irec)),1.)
+             call hfill(711,x_nm,0.,1.)
+             call hfill(712,y_nm,0.,1.)
+             call hfill(713,z_u,0.,1.)
+             if(mod(irec,100).eq.1) print *, "irec,egev(:,irec)=", irec,egev(:,irec)
+          elseif(f_ebeam_in.or.f_pbeam_in) then check_f_read_again
+             read(unit=iu,fmt=*,iostat=ios) e1_gev,x_mm,y_mm,z_u,unknown
+             irec=irec+1
+             egev(1,irec)=dble(e1_gev)-rn_unit+2.*rn_unit*pyr(0)
+             avg_energy_test=avg_energy_test+egev(:,irec)
+             x_nm=1.e6*x_mm
+             y_nm=1.e6*y_mm
+             call hfill(211,real(egev(1,irec)),0.,1.)
+             call hfill(212,real(egev(1,irec)),0.,1.)
+             call hfill(213,real(egev(1,irec)),0.,1.)
+             call hfill(711,x_nm,0.,1.)
+             call hfill(712,y_nm,0.,1.)
+             call hfill(713,z_u,0.,1.)
+             if(mod(irec,100).eq.1) print *, "irec,egev(1,irec)=", irec,egev(1,irec)
+          elseif(f_photons) then check_f_read_again
+             read(unit=iu,fmt=*,iostat=ios) e1_gev,photons_xp_rad,photons_yp_rad
+             check_i_photon: if((e1_gev.gt.0..and.mcs%i_photon.eq.1).or.(e1_gev.lt.0..and.mcs%i_photon.eq.2)) then
+                irec=irec+1
+                egev(1,irec)=abs(dble(e1_gev))
+                avg_energy_test=avg_energy_test+egev(:,irec)
+                call hfill(211,real(egev(1,irec)),0.,1.)
+                call hfill(212,real(egev(1,irec)),0.,1.)
+                call hfill(213,real(egev(1,irec)),0.,1.)
+                if(mod(irec,100).eq.1) print *, "irec,egev(1,irec)=", irec,egev(1,irec)
+             end if check_i_photon
+          end if check_f_read_again
+       end do loop_read_again
+
+       close(unit=iu)
+    end do loop_ifile_again
+
+    avg_energy_sum=sum(egev,dim=2)
+
+
+
+    print *, " irec,nrec,avg_energy_sum,avg_energy_test=", irec,nrec,avg_energy_sum,avg_energy_test
+
+    avg_energy=avg_energy_sum/dble(nrec)
+
+
+    check_do_fits: if(do_fits) then
+       loop_order: do i=1,nrec
+          ig_ord(1,i:i)=minloc(egev(1,:),mask=fg_ord(1,:))
+          fg_ord(1,ig_ord(1,i))=.false.
+          check_f_lumi_order: if(f_lumi) then
+             ig_ord(2,i:i)=minloc(egev(2,:),mask=fg_ord(2,:))
+             fg_ord(2,ig_ord(2,i))=.false.
+          end if check_f_lumi_order
+          if(mod(i,100).eq.0) print *, "i,ig_ord(:,i:i)=", i,ig_ord(:,i:i)
+       end do loop_order
+
+
+
+       ndel=nrec/ndiv
+
+       print *, " ndel=", ndel
+
+       loop_div: do i=1,ndiv
+          i1=1+ndel*(i-1)
+          i2=ndel*i
+          check_1: if(i.eq.1) then
+             yl(1,i)=max(0.d0,egev(1,ig_ord(1,i1))-epsilon(1.d0))
+             if(f_lumi) yl(2,i)=max(0.d0,egev(2,ig_ord(2,i1))-epsilon(1.d0))
+          else check_1
+             yl(:,i)=yu(:,i-1)
+          end if check_1
+
+
+          check_div: if(i.eq.ndiv) then
+             yu(1,i)=egev(1,ig_ord(1,i2))+epsilon(1.d0)
+             print *, " i,i1,i2,yl(1,i),egev(1,ig_ord(1,i1)),egev(1,ig_ord(1,i2)),yu(1,i)=", i,i1,i2,yl(1,i),egev(1,ig_ord(1,i1)),egev(1,ig_ord(1,i2)),yu(1,i)
+             check_f_lumi_div_1: if(f_lumi) then
+                yu(2,i)=egev(2,ig_ord(2,i2))+epsilon(1.d0)
+                print *, " i,i1,i2,yl(2,i),egev(2,ig_ord(2,i1)),egev(2,ig_ord(2,i2)),yu(2,i)=", i,i1,i2,yl(2,i),egev(2,ig_ord(2,i1)),egev(2,ig_ord(2,i2)),yu(2,i)
+             end if check_f_lumi_div_1
+          else check_div
+             yu(1,i)=0.5d0*(egev(1,ig_ord(1,i2))+egev(1,ig_ord(1,i2+1)))
+             print *, " i,i1,i2,yl(1,i),egev(1,ig_ord(1,i1)),egev(1,ig_ord(1,i2)),egev(1,ig_ord(1,i2+1)),yu(1,i)=", i,i1,i2,yl(1,i),egev(1,ig_ord(1,i1)),egev(1,ig_ord(1,i2)),egev(1,ig_ord(1,i2+1)),yu(1,i)
+             check_f_lumi_div_2: if(f_lumi) then
+                yu(2,i)=0.5d0*(egev(2,ig_ord(2,i2))+egev(2,ig_ord(2,i2+1)))
+                print *, " i,i1,i2,yl(2,i),egev(2,ig_ord(2,i1)),egev(2,ig_ord(2,i2)),egev(2,ig_ord(2,i2+1)),yu(2,i)=", i,i1,i2,yl(2,i),egev(2,ig_ord(2,i1)),egev(2,ig_ord(2,i2)),egev(2,ig_ord(2,i2+1)),yu(2,i)
+             end if check_f_lumi_div_2
+          end if check_div
+
+          rho_single(:,i)=1.d0/(yu(:,i)-yl(:,i))
+
+       end do loop_div
+
+       rho_single=rho_single/dble(ndiv)
+
+       loop_print_single: do i=1,ndiv
+          print *, " i,yl(1,i),yu(1,i),rho_single(1,i)=", i,yl(1,i),yu(1,i),rho_single(1,i)
+          if(f_lumi) print *, " i,yl(2,i),yu(2,i),rho_single(2,i)=", i,yl(2,i),yu(2,i),rho_single(2,i)
+       end do loop_print_single
+
+       check_f_lumi_rho: if(f_lumi) then
+          rcount_sum=0.d0
+
+          loop_div_i: do i=1,ndiv
+             loop_div_j: do j=1,ndiv
+                rcount_1=dble(count(egev(1,:).ge.yl(1,i).and.egev(1,:).lt.yu(1,i)))
+                rcount_2=dble(count(egev(2,:).ge.yl(2,j).and.egev(2,:).lt.yu(2,j)))
+                rcount=dble(count(egev(1,:).ge.yl(1,i).and.egev(1,:).lt.yu(1,i)  &
+                     &    .and.egev(2,:).ge.yl(2,j).and.egev(2,:).lt.yu(2,j)))
+                rcount_sum=rcount_sum+rcount
+                rho_corr(i,j)=rcount/(yu(1,i)-yl(1,i))/(yu(2,j)-yl(2,j))
+                print *, " i,j,rcount_1,rcount_2,rcount,rcount_sum=", i,j,rcount_1,rcount_2,rcount,rcount_sum
+             end do loop_div_j
+          end do loop_div_i
+
+          rho_corr=rho_corr/rcount_sum
+          loop_print_corr_i: do i=1,ndiv
+             loop_print_corr_j: do j=1,ndiv
+                print *, " i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)=", & 
+                     & i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)
+             end do loop_print_corr_j
+          end do loop_print_corr_i
+
+       end if check_f_lumi_rho
+
+
+
+
+       open(unit=iu,file=grid_file,action='write',status='replace',form='unformatted')
+
+       write(iu) ndiv
+       check_f_lumi_write: if(f_lumi) then
+          write(iu) yl,yu,rho_single,rho_corr,avg_energy
+          print *, " avg_energy 1,2=", avg_energy
+       else check_f_lumi_write
+          write(iu) yl(1,:),yu(1,:),rho_single(1,:),avg_energy(1)
+          print *, " avg_energy 1=", avg_energy(1)
+       end if check_f_lumi_write
+
+       close(unit=iu)
+
+
+       check_f_hbfun: if(f_photons) then
+          call hbfun1(1211,' func photon beam '//c_photon//' energy ',100,0,0.02*sqrts,func_eminus)
+          call hbfun1(1213,' func photon beam '//c_photon//' energy ',1280,0.,0.500*sqrts,func_eminus)
+       elseif(f_ebeam_in) then check_f_hbfun
+          call hbfun1(1211,' func e- energy ',100,0.480*sqrts,0.500*sqrts,func_eminus)
+          call hbfun1(1213,' func e- energy ',1280,0.,0.500*sqrts,func_eminus)
+       elseif(f_pbeam_in) then check_f_hbfun
+          call hbfun1(1211,' func e+ energy ',100,0.480*sqrts,0.500*sqrts,func_eminus)
+          call hbfun1(1213,' func e+ energy ',1280,0.,0.500*sqrts,func_eminus)
+       elseif(f_lumi) then check_f_hbfun
+          call hbfun1(1211,' func e- energy ',100,0.480*sqrts,0.500*sqrts,func_eminus)
+          call hbfun1(1213,' func e- energy ',1280,0.,0.500*sqrts,func_eminus)
+          call hbfun1(1311,' func e+ energy ',100,0.480*sqrts,0.500*sqrts,func_eplus)
+          call hbfun2(1611,' func e+ vs e- energy ',60,0.480*sqrts,0.500*sqrts,60,0.480*sqrts,0.500*sqrts,rho_corr_y)
+       end if check_f_hbfun
+
+    end if check_do_fits
+
+    deallocate (yu)
+    deallocate (yl)
+    deallocate (rho_single)
+    deallocate (rho_corr)
+    deallocate (ig_ord)
+    deallocate (fg_ord)
+    deallocate (egev)
+
+    call hcdir('//ANAHBK',' ')
+    call hprint(0)
+    call hrout(0,icycle,' ')
+    call hrend('ANAHBK')
+
+    call hdelet(0)
+
+
+    return
+
+  end subroutine a6f_ini
+
+  function rho_corr_y(yy) result(rho)
+    real(kind=single), dimension(2), intent(in) :: yy
+    real(kind=single) :: rho
+    real(kind=double), dimension(2) :: yd
+    integer, dimension(1) :: i1
+    integer, dimension(1) :: i2
+    yd=dble(yy)
+    check_range: if(yd(1).ge.yl(1,1).and.yd(1).lt.yu(1,ndiv).and.yd(2).ge.yl(2,1).and.yd(2).lt.yu(2,ndiv)) then
+       i1=minloc(abs(yd(1)-yl(1,:)))
+       i2=minloc(abs(yd(2)-yl(2,:)))
+       if(yd(1).lt.yl(1,i1(1))) i1=i1-1
+       if(yd(2).lt.yl(2,i2(1))) i2=i2-1
+       rho=real(rho_corr(i1(1),i2(1)))
+    else check_range
+       rho=0.
+    end if check_range
+    return
+  end function rho_corr_y
+
+  function rho_single_y(i,yy) result(rho)
+    integer, intent(in) :: i
+    real(kind=single), intent(in) :: yy
+    real(kind=single) :: rho
+    real(kind=double) :: yd
+    integer, dimension(1) :: i1
+    yd=dble(yy)
+    check_range: if(yd.ge.yl(i,1).and.yd.lt.yu(i,ndiv)) then
+       i1=minloc(abs(yd-yl(i,:)))
+       if(yd.lt.yl(i,i1(1))) i1=i1-1
+       rho=real(rho_single(i,i1(1)))
+    else check_range
+       rho=0.
+    end if check_range
+    return
+  end function rho_single_y
+
+
+
+  function func_eminus(yy) result(rho)
+    real(kind=single), intent(in) :: yy
+    real(kind=single) :: rho
+    rho=rho_single_y(1,yy)
+    !   print *, " yy,func_eminus=", yy,rho
+    return
+  end function func_eminus
+
+  function func_eplus(yy) result(rho)
+    real(kind=single), intent(in) :: yy
+    real(kind=single) :: rho
+    rho=rho_single_y(2,yy)
+    !   print *, " yy,func_eplus=", yy,rho
+    return
+  end function func_eplus
+
+
+
+
+end module ini_evt_prt

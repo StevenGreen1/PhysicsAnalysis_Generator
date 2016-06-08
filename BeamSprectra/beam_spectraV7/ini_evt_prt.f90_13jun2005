@@ -1,0 +1,242 @@
+module ini_evt_prt
+
+  use kinds, only: single
+  use energy_spread_states
+  use file_utils, only: free_unit
+
+  implicit none
+  private
+
+  public :: a6f_ini
+
+  Common/PAWC/H(10000000)
+  real(kind=single)          :: h
+
+  real(kind=single) :: e1_gev
+  real(kind=single) :: e2_gev
+  real(kind=single) :: x_u
+  real(kind=single) :: y_u
+  real(kind=single) :: z_u
+  real(kind=single) :: elec_xp_urad
+  real(kind=single) :: elec_yp_urad
+  real(kind=single) :: posi_xp_urad
+  real(kind=single) :: posi_yp_urad
+
+  real(kind=single) :: rcount
+  real(kind=single) :: rcount_1
+  real(kind=single) :: rcount_2
+  real(kind=single) :: rcount_sum
+
+  real(kind=single), dimension(:,:), pointer :: egev
+  real(kind=single), dimension(:,:), pointer :: rho_corr
+  real(kind=single), dimension(:,:), pointer :: rho_single
+  real(kind=single), dimension(:,:), pointer :: yl
+  real(kind=single), dimension(:,:), pointer :: yu
+
+  logical, dimension(:,:), pointer :: fg_ord
+
+  integer :: ndiv
+  integer, dimension(:,:), pointer :: ig_ord
+  integer, parameter :: ndiv_max=20
+  integer, parameter :: nscale=10
+
+
+contains
+
+  subroutine a6f_ini
+
+    integer :: icycle
+    integer :: istat
+    integer :: ios
+    integer :: ifile
+    integer :: iu
+    integer :: iu_hbook
+    integer :: nrec
+    integer :: iu_ntup
+    character(len=100) :: grid_file
+    character(len=100) :: hbook_file
+    logical :: f_ip
+    logical :: f_lumi
+    integer :: ndel
+    integer :: i
+    integer :: i1
+    integer :: i2
+    integer :: j
+    integer :: j1
+    integer :: j2
+    !
+    call energy_spread_state_create('energy_spread.in')
+
+    iu_hbook=free_unit()
+    iu=free_unit()
+    call hropen(iu_hbook,'ANAHBK',mcs%hbook_output,'NX',1024,istat)
+
+    loop_ifile: do ifile=1,mcs%n_single_file
+       grid_file=adjustr(mcs%single_file_name(ifile))
+       grid_file(98:100)='grd'
+       grid_file=adjustl(grid_file)
+       print *, " ifile,grid_file=", ifile,grid_file
+       print *, " ifile=", ifile, " about to open ", mcs%single_file_name(ifile)
+       open(unit=iu,file=mcs%single_file_name(ifile),action='read',status='old',form='formatted')
+       nrec=0
+       loop_read: do
+          read(unit=iu,fmt=*,iostat=ios) e1_gev,e2_gev,x_u,y_u,z_u,elec_xp_urad,elec_yp_urad,posi_xp_urad,posi_yp_urad
+          if(ios.ne.0) exit loop_read
+          nrec=nrec+1
+       end do loop_read
+       close(unit=iu)
+       ndiv=min(ndiv_max,nrec/nscale)
+       print *, "ifile,nrec,ndiv=", ifile,nrec,ndiv
+
+       allocate (egev(2,nrec))
+       allocate (ig_ord(2,nrec))
+       allocate (fg_ord(2,nrec))
+       allocate (rho_corr(ndiv,ndiv))
+       allocate (rho_single(2,ndiv))
+       allocate (yl(2,ndiv))
+       allocate (yu(2,ndiv))
+
+       fg_ord=.true.
+
+
+       print *, " ifile=", ifile, " about to again open ", mcs%single_file_name(ifile)
+       open(unit=iu,file=mcs%single_file_name(ifile),action='read',status='old',form='formatted')
+       loop_read_again: do i=1,nrec
+          read(unit=iu,fmt=*,iostat=ios) egev(1,i),egev(2,i),x_u,y_u,z_u,elec_xp_urad,elec_yp_urad,posi_xp_urad,posi_yp_urad
+       end do loop_read_again
+
+       close(unit=iu)
+
+
+       loop_order: do i=1,nrec
+          ig_ord(1,i:i)=minloc(egev(1,:),mask=fg_ord(1,:))
+          ig_ord(2,i:i)=minloc(egev(2,:),mask=fg_ord(2,:))
+          fg_ord(1,ig_ord(1,i))=.false.
+          fg_ord(2,ig_ord(2,i))=.false.
+       end do loop_order
+
+
+
+       ndel=nrec/ndiv
+
+       print *, " ndel=", ndel
+
+       loop_div: do i=1,ndiv
+          i1=1+ndel*(i-1)
+          i2=ndel*i
+          check_1: if(i.eq.1) then
+             yl(1,i)=egev(1,ig_ord(1,i1))-epsilon(1.)
+             yl(2,i)=egev(2,ig_ord(2,i1))-epsilon(1.)
+          else check_1
+             yl(:,i)=yu(:,i-1)
+          end if check_1
+
+          check_div: if(i.eq.ndiv) then
+             yu(1,i)=egev(1,ig_ord(1,i2))+epsilon(1.)
+             yu(2,i)=egev(2,ig_ord(2,i2))+epsilon(1.)
+          else check_div
+             yu(1,i)=0.5d0*(egev(1,ig_ord(1,i2))+egev(1,ig_ord(1,i2+1)))
+             yu(2,i)=0.5d0*(egev(2,ig_ord(2,i2))+egev(2,ig_ord(2,i2+1)))
+          end if check_div
+
+          rho_single(:,i)=1.d0/(yu(:,i)-yl(:,i))
+
+       end do loop_div
+
+       rho_single=rho_single/real(ndiv)
+
+       rcount_sum=0.d0
+
+       loop_div_i: do i=1,ndiv
+          i1=1+ndel*(i-1)
+          i2=ndel*i
+          loop_div_j: do j=1,ndiv
+             j1=1+ndel*(j-1)
+             j2=ndel*j
+             !            rcount=real(count(egev(1,ig_ord(1,i1:i2)).ge.yl(1,i).and.egev(1,ig_ord(1,i1:i2)).le.yu(1,i)  &
+             !                   &    .and.egev(2,ig_ord(2,j1:j2)).ge.yl(2,j).and.egev(2,ig_ord(2,j1:j2)).le.yu(2,j)))
+             rcount_1=real(count(egev(1,:).ge.yl(1,i).and.egev(1,:).lt.yu(1,i)))
+             rcount_2=real(count(egev(2,:).ge.yl(2,j).and.egev(2,:).lt.yu(2,j)))
+             rcount=real(count(egev(1,:).ge.yl(1,i).and.egev(1,:).lt.yu(1,i)  &
+                  &    .and.egev(2,:).ge.yl(2,j).and.egev(2,:).lt.yu(2,j)))
+             rcount_sum=rcount_sum+rcount
+             rho_corr(i,j)=rcount/(yu(1,i)-yl(1,i))/(yu(2,j)-yl(2,j))
+             print *, " i,j,rcount_1,rcount_2,rcount,rcount_sum=", i,j,rcount_1,rcount_2,rcount,rcount_sum
+             !            print *, " i,j,rcount,rcount_sum=", i,j,rcount,rcount_sum
+          end do loop_div_j
+       end do loop_div_i
+
+       rho_corr=rho_corr/rcount_sum
+
+       loop_print_single: do i=1,ndiv
+          print *, " i,yl(1,i),yu(1,i),rho_single(1,i)=", i,yl(1,i),yu(1,i),rho_single(1,i)
+          print *, " i,yl(2,i),yu(2,i),rho_single(2,i)=", i,yl(2,i),yu(2,i),rho_single(2,i)
+       end do loop_print_single
+
+       loop_print_corr_i: do i=1,ndiv
+          loop_print_corr_j: do j=1,ndiv
+             print *, " i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)=", & 
+                  & i,j,yl(1,i),yu(1,i),yl(2,j),yu(2,j),rho_corr(i,j),rho_single(1,i)*rho_single(2,j)
+          end do loop_print_corr_j
+       end do loop_print_corr_i
+
+
+       open(unit=iu,file=grid_file,action='write',status='replace',form='unformatted')
+
+       write(iu) ndiv
+       write(iu) yl,yu,rho_single,rho_corr
+
+       close(unit=iu)
+
+
+       deallocate (yu)
+       deallocate (yl)
+       deallocate (rho_single)
+       deallocate (rho_corr)
+       deallocate (ig_ord)
+       deallocate (fg_ord)
+       deallocate (egev)
+
+    end do loop_ifile
+
+    return
+
+  end subroutine a6f_ini
+
+  function rho_corr_y(yy) result(rho)
+    real(kind=single), dimension(2), intent(in) :: yy
+    real(kind=single) :: rho
+    integer, dimension(1) :: i1
+    integer, dimension(1) :: i2
+    check_range: if(yy(1).ge.yl(1,1).and.yy(1).lt.yu(1,ndiv).and.yy(2).ge.yl(2,1).and.yy(2).lt.yu(2,ndiv)) then
+       i1=minloc(abs(yy(1)-yl(1,:)))
+       i2=minloc(abs(yy(2)-yl(2,:)))
+       if(yy(1).lt.yl(1,i1(1))) i1=i1-1
+       if(yy(2).lt.yl(2,i2(1))) i2=i2-1
+       rho=rho_corr(i1(1),i2(1))
+    else check_range
+       rho=0.
+    end if check_range
+    return
+  end function rho_corr_y
+
+  function rho_single_y(i,yy) result(rho)
+    integer, intent(in) :: i
+    real(kind=single), intent(in) :: yy
+    real(kind=single) :: rho
+    integer, dimension(1) :: i1
+    check_range: if(yy.ge.yl(i,1).and.yy.lt.yu(i,ndiv)) then
+       i1=minloc(abs(yy-yl(i,:)))
+       if(yy.lt.yl(i,i1(1))) i1=i1-1
+       rho=rho_single(i,i1(1))
+    else check_range
+       rho=0.
+    end if check_range
+    return
+  end function rho_single_y
+
+
+
+
+
+end module ini_evt_prt
