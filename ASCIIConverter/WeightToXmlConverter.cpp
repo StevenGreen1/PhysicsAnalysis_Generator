@@ -19,7 +19,7 @@ void WeightToXmlConverter::LoadASCII()
     std::string folder("/usera/sg568/PhysicsAnalysis/Generator/WhizardResults/" + m_Process + "/" + m_Energy + "GeV/Weights/Alpha4_" + this->AlphasToString(m_Alpha4) + "_Alpha5_" + this->AlphasToString(m_Alpha5));
     std::cout << folder << std::endl;
 
-    for (unsigned int i = 1; i < 101; i++)
+    for (unsigned int i = 1; i <= 350; i++)
     {
         std::string fileName(folder);
         fileName += "/whizard.";
@@ -56,22 +56,24 @@ void WeightToXmlConverter::SaveXml()
 {
     TiXmlDocument tiXmlDocument;
 
+    TiXmlElement* pHeadTiXmlElement = new TiXmlElement("Process");
+    tiXmlDocument.LinkEndChild(pHeadTiXmlElement);
+
+    pHeadTiXmlElement->SetAttribute("Process", m_Process.c_str());
+    pHeadTiXmlElement->SetAttribute("Energy", m_Energy.c_str());
+    pHeadTiXmlElement->SetDoubleAttribute("Alpha_Four", m_Alpha4);
+    pHeadTiXmlElement->SetDoubleAttribute("Alpha_Five", m_Alpha4);
+
     for (EventVector::iterator iter = m_Events.begin(); iter != m_Events.end(); iter++)
     {
         WeightToXmlConverter::Event *pEvent(*iter);
-
         TiXmlElement* pTiXmlElement = new TiXmlElement("Event");
-        tiXmlDocument.LinkEndChild(pTiXmlElement);
-
-        pTiXmlElement->SetAttribute("Process", pEvent->GetProcess().c_str());
-        pTiXmlElement->SetAttribute("Energy", pEvent->GetEnergy().c_str());
-        pTiXmlElement->SetAttribute("Event number", pEvent->GetEventNumber());
-        pTiXmlElement->SetDoubleAttribute("Alpha Four", pEvent->GetAlpha4());
-        pTiXmlElement->SetDoubleAttribute("Alpha Five", pEvent->GetAlpha5());
-        pTiXmlElement->SetDoubleAttribute("Ratio of Integrands", pEvent->GetWeight());
+        pTiXmlElement->SetAttribute("Event_Number", pEvent->GetEventNumber());
+        pTiXmlElement->SetDoubleAttribute("Ratio_of_Integrands", pEvent->GetWeight());
+        pHeadTiXmlElement->LinkEndChild(pTiXmlElement);
     }
 
-    std::string fileName("Reweighting_" + m_Process + "_" + m_Energy + "GeV_Alpha4_" + this->AlphasToString(m_Alpha4) + "_Alpha5_" + this->AlphasToString(m_Alpha5) + ".xml");
+    std::string fileName("/usera/sg568/PhysicsAnalysis/Generator/WhizardWeights/" + m_Process + "/" + m_Energy + "GeV/Reweighting_" + m_Process + "_" + m_Energy + "GeV_Alpha4_" + this->AlphasToString(m_Alpha4) + "_Alpha5_" + this->AlphasToString(m_Alpha5) + ".xml");
 
     bool success = tiXmlDocument.SaveFile(fileName.c_str());
 
@@ -102,19 +104,15 @@ std::string WeightToXmlConverter::AlphasToString(T Number)
 
 int main(int argc, char* argv[])
 {
-    std::string process("ee_nunuww_nunuqqqq");
+    std::string process("ee_nunuqqqq");
     std::string energy("1400");
-    std::vector<std::pair<float,float> > alphas;
 
-    for (int i = -5; i < 6; i++)
+    for (int i = -4; i < -2; i++)
     {
-        for (int j = -5; j < 6; j++)
+        for (int j = -4; j < -2; j++)
         {
-            const float alpha4(i * 0.005);
-            const float alpha5(j * 0.005);
-            std::cout << "HERE" << std::endl;
-            std::cout << alpha4 << std::endl;
-            std::cout << alpha5 << std::endl;
+            const float alpha4(i * 0.025);
+            const float alpha5(j * 0.025);
             WeightToXmlConverter *pWeightToXmlConverter = new WeightToXmlConverter(process,energy,alpha4,alpha5);
         }
     } 
